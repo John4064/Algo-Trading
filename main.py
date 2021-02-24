@@ -35,17 +35,18 @@ class algo:
         percent_change = (week_close - week_open) / week_open * 100
         print('{} moved {}% over the last 5 day'.format(ticker,percent_change))
         return
-    def marketStream(self):
+    def test(self):
+        #aapl = self.api.get_barset('AAPL', '15Min',limit=1000).df
+        #print(aapl.loc['2021-02-16 18:45:00-05:00'])
+        active_assets = self.api.list_positions()
+        print(active_assets)
 
         return
     def run(self):
         orders = self.api.list_orders(status="")
         # Check if the market is open now.
         #self.weekData('TSLA')
-        self.positions = self.api.list_positions()
-        for x in range(len(self.positions)):
-            print(type(self.positions[x]))
-        return
+        self.test()
 
 
 

@@ -1,15 +1,15 @@
 from alpaca_trade_api import StreamConn
 from alpaca_trade_api.common import URL
-
 from config import *
-
+from datetime import datetime
+import pandas as pd
 USE_POLYGON = False
-def check():
-    return
-
 if __name__ == '__main__':
     import logging
 
+
+
+    # clock = api.get_clock()
     logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
     conn = StreamConn(
             API_KEY,
@@ -90,11 +90,11 @@ if __name__ == '__main__':
         # conn.run(['Q.TSLA'])
 
         # these are fine:
-        #conn.run(['AM.*'])
+        conn.run(['AM.WWE'])
         #conn.run(['alpacadatav1/Q.*'])
 
-        #conn.run(['alpacadatav1/AM.TSLA'])
-        conn.run(['alpacadatav1/Q.WWE'])
+        #conn.run(['alpacadatav1/AM.WWE'])
+        #conn.run(['alpacadatav1/Q.WWE'])
        # conn.run(['alpacadatav1/Q.GME'])
         #conn.run(['trade_updates', 'alpacadatav1/Q.GOOG', 'alpacadatav1/AM.TSLA'])
         #conn.run(['alpacadatav1/T.BA'])
