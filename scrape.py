@@ -15,15 +15,9 @@ class YahooScrape():
         self.api = alpaca.REST(TESTAPI_KEY, TESTAPI_SECRET, APCA_API_BASE_URL, 'v2')
         # self.rsiIndicator()
         clock = self.api.get_clock()
-        #self.allS = self.allStocks()
         #if(clock.is_open == False):
             #print(clock.timestamp.hour)
         return
-    def allStocks(self):
-        my_data_file = open('stocks.txt', 'r')
-        tickers =my_data_file.readline().split(',')
-        my_data_file.close()
-        return tickers[:-1]
     def findVolatile(self, amount):
         # top 10,25,50,100 most volatile stocks
         url = "https://finance.yahoo.com/most-active?offset=0&count={}".format(amount)
@@ -39,6 +33,7 @@ class YahooScrape():
         for header in tr_elements[0]:
             name = header.text_content()
             col.append((name, []))
+
         for j in range(1, len(tr_elements)):
             # T is our j'th row
             T = tr_elements[j]
@@ -147,7 +142,7 @@ class YahooScrape():
         # for col in stocks.columns:
         # print(col)
         for x in range(len(stocks)):
-            # print(stocks['Symbol'][x]+ " Volume "+ stocks['Volume'][x]+" Avg Vol "+stocks['Avg Vol (3 month)'][x])
+            #x is index
             vol = str(stocks['Volume'][x])
             vol = float(vol[:-1])
             avgVol = str(stocks['Avg Vol (3 month)'][x])
