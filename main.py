@@ -7,9 +7,48 @@ from algorithm import *
 from scrape import *
 import ast
 
+def tester():
+    """
+    Dead Code Returns all tickers and their open
+    So unbelievably slow
+    """
+    ss = YahooScrape()
+    tickers = tester()
+    for x in tickers:
+        if ('.' not in x) and ('-' not in x):
+            test = ss.findStat(x)
+            print(x)
+            print(test[1])
+    ticks = open("tickers.txt", "r")
+    tickers=[]
+    line = ticks.readline()
+    try:
+        line = ticks.readline()
+        while line != '':
+            ticker,name = line.split(',')
+            tickers.append(ticker)
+            line = ticks.readline()
+    finally:
+        ticks.close()
+    return tickers
 def run():
     ss = YahooScrape()
-    ss.findVolatile(25)
+    #voldf is the voltaile dataframe contains all info
+    #sort valid creates valid stocks which is just a list of tickers
+    try:
+        ss.findVolatile(100)
+        ss.sortValid(1)
+        print(ss.validStocks)
+        for x in ss.validStocks:
+            test = ss.findStat(x)
+            print(x)
+            print(test[1])
+            print(test[6])
+            print(test[7])
+    except:
+        print("For heading in tr_elements[0] line 34 find volatile")
+    #Bug with sort valid
+
     #print(ss.voldf['Symbol'])
     return
 if __name__ == '__main__':

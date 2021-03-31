@@ -60,7 +60,32 @@ class YahooScrape():
         self.voldf = pd.DataFrame(Dict)
         #return pd.DataFrame(Dict)
         return
-
+    def findStat(self,ticker):
+        """
+        Finds Price, Volume, and basic stats about the stock
+        """
+        url = self.urlBuilder(ticker,0)
+        page = requests.get(url).text
+        l = {}
+        u = []
+        # Page is the page source code that we are searching
+        # Using beautiful soup we sort through with a html parser.
+        # Search for body tags which our data is key on in yahoo finance
+        soup = BeautifulSoup(page, "html.parser")
+        alldata = soup.find_all("tbody")
+        try:
+            table1 = alldata[0].find_all("tr")
+            for x in range(len(table1)):
+                try:
+                    table1_td = table1[x].find_all("td")
+                except:
+                    table1_td = None
+                l[table1_td[0].text] = table1_td[1].text
+                u.append(l)
+                l = {}
+        except:
+            table1 = None
+        return u
     def urlBuilder(self, ticker, option):
         """
             Builds a url Given a stock ticker to find the quote
@@ -143,27 +168,32 @@ class YahooScrape():
         # print(col)
         for x in range(len(stocks)):
             #x is index
-            vol = str(stocks['Volume'][x])
-            vol = float(vol[:-1])
-            avgVol = str(stocks['Avg Vol (3 month)'][x])
-            avgVol = float(avgVol[:-1])
             price = str(stocks['Price (Intraday)'][x])
             price = float(price[:-1])
-            # CHECKS that the volume is double avg volume, as well that its above 5 dollars a share
-            if (vol > avgVol * 2 and (price > 4.9)):
-                # print("{} has a valid volume to trade".format(stocks['Symbol'][x]))
-                # WE now need to check if Float is under 100m
-                financials = self.findFinancials(stocks['Symbol'][x], 1)
-                # financials index 19 is the float
-                tradingFlo = financials[19]['Float ']
-                try:
-                    if (tradingFlo[-1] == 'M'):
-                        tradingFlo = float(financials[19]['Float '][:-1])
-                        if (tradingFlo < 100):
-                            ans.append(stocks['Symbol'][x])
-                except:
-                    print("ERROR WITH THE FLOAT VALUE")
-        self.validStocks = ans
+            #checks the price to get rid of any penny stocks immediatly.
+            if(price > 4.9):
+                vol = str(stocks['Volume'][x])
+                vol = float(vol[:-1])
+                avgVol = str(stocks['Avg Vol (3 month)'][x])
+                #print(avgVol[:-1])
+                avgVol = float(avgVol[:-1])
+                # CHECKS that the volume is double avg volume
+                if (vol > avgVol*2):
+                    # print("{} has a valid volume to trade".format(stocks['Symbol'][x]))
+                    # WE now need to check if Float is under 100m
+                    try:
+                        financials = self.findFinancials(stocks['Symbol'][x], 1)
+                        # financials index 19 is the float
+                        if(',' in financials[19]['Float ']):
+                            financials[19]['Float '] = financials[19]['Float '].replace(',','')
+                        tradingFlo = financials[19]['Float ']
+                        if (tradingFlo[-1] == 'M'):
+                            tradingFlo = float(financials[19]['Float '][:-1])
+                            if (tradingFlo < 100):
+                                ans.append(stocks['Symbol'][x])
+                    except:
+                        print("ERROR WITH THE FLOAT VALUE")
+            self.validStocks = ans
         return
 
     def rsiIndicator(self):
