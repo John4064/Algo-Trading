@@ -44,21 +44,12 @@ class YahooScrape():
             # Iterate through each element of the row
             for t in T.iterchildren():
                 data = t.text_content()
-                # Check if row is empty
-                if i > 0:
-                    # Convert any numerical value to integers
-                    try:
-                        data = int(data)
-                    except:
-                        pass
                 # Append the data to the empty list of the i'th column
                 col[i][1].append(data)
                 # Increment i for the next column
                 i += 1
-        Dict = {title: column for (title, column) in col}
-        # Volatile df
-        self.voldf = pd.DataFrame(Dict)
-        #return pd.DataFrame(Dict)
+        #gets the volatile stock tickers
+        self.vol =col[0][1]
         return
     def findStat(self,ticker):
         """
@@ -192,6 +183,7 @@ class YahooScrape():
                             if (tradingFlo < 100):
                                 ans.append(stocks['Symbol'][x])
                     except:
+
                         print("ERROR WITH THE FLOAT VALUE")
             self.validStocks = ans
         return

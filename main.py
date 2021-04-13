@@ -37,14 +37,9 @@ def run():
     #sort valid creates valid stocks which is just a list of tickers
     try:
         ss.findVolatile(100)
-        ss.sortValid(1)
-        print(ss.validStocks)
-        for x in ss.validStocks:
-            test = ss.findStat(x)
-            print(x)
-            print(test[1])
-            print(test[6])
-            print(test[7])
+        print(ss.vol)
+        #ss.sortValid(1)
+
     except:
         print("For heading in tr_elements[0] line 34 find volatile")
     #Bug with sort valid
