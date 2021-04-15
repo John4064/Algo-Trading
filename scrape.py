@@ -87,8 +87,8 @@ class YahooScrape():
             return url1
         else:
             return url
-
     def findFinancials(self, ticker, option):
+        #Useless method atm
         # PageS is page source from the desired ticker
         # We then convert it to beautiful soup so
         # we can search through for our desired tables(tbody tags)
@@ -146,72 +146,26 @@ class YahooScrape():
                 table3 = None
         # Returns a list containing a dictionary
         return u
-
     def sortValid(self,option):
         # This function takes the list of active stocks
         # determines which match a 2:1 ratio of the current volume based on avg
-        # self.urlBuilder(stocks['Symbol'][x])
-        # Returns
-        # ans = pd.DataFrame()
+        #Then Checks the price for >5
         ans = []
-        stocks = self.voldf
-        # for col in stocks.columns:
-        # print(col)
+        stocks = self.vol
+        #Iterates through the volatile stocks
         for x in range(len(stocks)):
-            #x is index
-            price = str(stocks['Price (Intraday)'][x])
-            price = float(price[:-1])
+            #gets the finanacial stats for every one, then volume, avgvolume, the open price
+            stats =self.findStat(stocks[x])
+            vol = int(stats[6]['Volume'].replace(',', ''))
+            avgVol=int(stats[7]['Avg. Volume'].replace(',', ''))
+            price = float(stats[1]['Open'])
             #checks the price to get rid of any penny stocks immediatly.
             if(price > 4.9):
-                vol = str(stocks['Volume'][x])
-                vol = float(vol[:-1])
-                avgVol = str(stocks['Avg Vol (3 month)'][x])
-                #print(avgVol[:-1])
-                avgVol = float(avgVol[:-1])
                 # CHECKS that the volume is double avg volume
                 if (vol > avgVol*2):
-                    # print("{} has a valid volume to trade".format(stocks['Symbol'][x]))
-                    # WE now need to check if Float is under 100m
-                    try:
-                        financials = self.findFinancials(stocks['Symbol'][x], 1)
-                        # financials index 19 is the float
-                        if(',' in financials[19]['Float ']):
-                            financials[19]['Float '] = financials[19]['Float '].replace(',','')
-                        tradingFlo = financials[19]['Float ']
-                        if (tradingFlo[-1] == 'M'):
-                            tradingFlo = float(financials[19]['Float '][:-1])
-                            if (tradingFlo < 100):
-                                ans.append(stocks['Symbol'][x])
-                    except:
-
-                        print("ERROR WITH THE FLOAT VALUE")
+                    # financials index 19 is the float
+                    ans.append(stocks[x])
             self.validStocks = ans
-        return
-
-    def rsiIndicator(self):
-        # Checks the realtive strength index
-        # A indicator between 0-100
-        # One factor to consider
-        # https://www.investopedia.com/investing/momentum-and-relative-strength-index/
-        # Rs is relative strength based on the average of x days up closes and down closes
-        period = 30
-        tickers = self.validStocks
-        barset = self.api.get_barset(tickers[4], 'day', limit=period)
-        main_bars = barset[tickers[4]]
-        sum = 0
-        for x in range(len(main_bars)):
-            sum = sum + main_bars[x].c
-        if sum != 0:
-            sum = round(sum / len(main_bars), 2)
-        else:
-            print("INVALID IND")
-
-        print("The avg close was {} for {}".format(sum, tickers[4]))
-        self.api.close()
-
-        stocks = self.voldf
-        RS = 5
-        rsi = 100 - (100 / (1 + RS))
         return
 
 def updateTime():
