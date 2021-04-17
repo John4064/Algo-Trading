@@ -166,7 +166,7 @@ class YahooScrape():
                     # financials index 19 is the float
                     ans.append(stocks[x])
             self.validStocks = ans
-        return
+        return ans
 
 def updateTime():
     now = datetime.now()

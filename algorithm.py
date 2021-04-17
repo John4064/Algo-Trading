@@ -1,20 +1,77 @@
 from colorama import Fore, Style, init as ColoramaInit
 import alpaca_trade_api as alpaca
 from config import *
-import datetime
+from datetime import  *
 import numpy as np
 import logging
-
+from scrape import *
+import time
+import threading
 ColoramaInit(autoreset=True)
+
+#Logging info
+#ogging.basicConfig(filename='debug.log', level=logging.DEBUG)
+logging.basicConfig(filename='trades.log', level=logging.INFO)
 class algo:
     def __init__(self):
         self.api = alpaca.REST(TESTAPI_KEY, TESTAPI_SECRET, APCA_API_BASE_URL, 'v2')
         self.account = self.api.get_account()
-        self.tickers = ['NUAN', 'CAN', 'GGB', 'JNJ', 'NVCR', 'NVDA', 'NI', 'YNDX', 'NET', 'AHCO']
+        self.tickers = ['BAC', 'PPD', 'QS', 'NRZ', 'NUAN', 'GSK', 'KIM', 'DELL']
         #for x in self.tickers:
             #self.movingData(x,30)
             #self.volumeCheck(x,30)
-        self.sma()
+
+        #self.sma()
+        self.blacklist = []
+        self.timeToClose = None
+        #self.run()
+    def run(self):
+        while True:
+            self.clock = self.api.get_clock()
+            closingTime = self.clock.next_close.replace(tzinfo=timezone.utc).timestamp()
+            currTime = self.clock.timestamp.replace(tzinfo=timezone.utc).timestamp()
+            self.timeToClose = closingTime - currTime
+            if (self.timeToClose < (60 * 15)):
+                # Close all positions when 15 minutes til market close.
+                print("Market closing soon.  Closing positions.")
+
+                positions = self.alpaca.list_positions()
+                for position in positions:
+                    #CHANGE THIS TO PROFIT VS LOSS
+                    if (position.side == 'long'):
+                        orderSide = 'sell'
+                    else:
+                        orderSide = 'buy'
+                    qty = abs(int(float(position.qty)))
+                    respSO = []
+                    tSubmitOrder = threading.Thread(target=self.submitOrder(qty, position.symbol, orderSide, respSO))
+                    tSubmitOrder.start()
+                    tSubmitOrder.join()
+
+                # Run script again after market close for next trading day.
+                print("Sleeping until market close (15 minutes).")
+                time.sleep(60 * 15)
+            else:
+                # Rebalance the portfolio.
+                print(5)
+                #tRebalance = threading.Thread(target=self.rebalance)
+                #tRebalance.start()
+                #tRebalance.join()
+                time.sleep(60)
+
+
+
+
+
+
+
+        logging.info("PROGRAM OFF")
+        return
+    def importT(self):
+        #imprt tickers
+        scrape = YahooScrape()
+        scrape.findVolatile(100)
+        self.tickers= scrape.sortValid(1)
     def marketHours(self):
         clock = self.api.get_clock()
         print('The market is {}'.format('open.' if clock.is_open else 'closed.'))
@@ -44,7 +101,7 @@ class algo:
             # Iterates through the barset thats in a dataframe and puts them into individual lists
             for index,row in bar.iterrows():
                 #print(row['open'],row['volume'])
-                #timeList.append(datetime.strptime(bar.time, '%Y-%m-%dT%H:%M:%SZ'))
+                #timeList.append(strptime(bar.time, '%Y-%m-%dT%H:%M:%SZ'))
                 openList.append(row['open'])
                 highList.append(row['high'])
                 lowList.append(row['low'])
@@ -60,6 +117,7 @@ class algo:
             volumeList = np.array(volumeList, dtype=np.float64)
             # Calculated SMA trading indicator
             SMA20 = self.moving_average(closeList,20)
+
             SMA50 = self.moving_average(closeList,50)
             final20 = sum(SMA20)/len(SMA20)
             final50 = sum(SMA50)/len(SMA50)
@@ -70,10 +128,21 @@ class algo:
                     #Throws an error if there is not a position
                     openPosition = self.api.get_position(x)
                 except:
-                # Opens new position if one does not exist
-                #If we havent already bought this stock
-                    cashBalance = self.api.get_account().cash
-                    targetPositionSize = cashBalance / (price / maxPos)
+                    # Opens new position if one does not exist
+                    #If we havent already bought this stock
+                    #Gets our cash balance and the last quote for the stock
+                    cashBalance = float(self.api.get_account().cash)
+                    test = self.api.get_last_quote(x)._raw
+                    #Then calculates the target position based on our maxpos(.25) and current price
+                    price =test['askprice']
+                    if(price  == 0):
+                        price =test['bidprice']
+                    else:
+                        targetPositionSize = round(cashBalance / (price / maxPos),2)
+                    print("We are going to buy: {} at {} for a total amount of {}".format(x,price,targetPositionSize))
+                    logging.info("We are going to buy: {} at {} for a total amount of {}".format(x,price,targetPositionSize))
+                    #order examples
+                    #self.api.submit_order(symbol=x, qty=round(targetPositionSize/price), side='buy', type='market',time_in_force='day')
         return
     def moving_average(self,x, w):
         return np.convolve(x, np.ones(w), 'valid') / w
@@ -97,3 +166,6 @@ class algo:
         active_assets = self.api.list_positions()
         print(active_assets)
         return
+
+
+
