@@ -24,7 +24,9 @@ class algo:
         #self.sma()
         self.blacklist = []
         self.timeToClose = None
-        #self.run()
+        #pos = self.api.list_positions()
+        #print(float(pos[1].unrealized_plpc) * 100)
+        self.run()
     def run(self):
         while True:
             self.clock = self.api.get_clock()
@@ -37,41 +39,39 @@ class algo:
 
                 positions = self.alpaca.list_positions()
                 for position in positions:
-                    #CHANGE THIS TO PROFIT VS LOSS
-                    if (position.side == 'long'):
-                        orderSide = 'sell'
-                    else:
-                        orderSide = 'buy'
-                    qty = abs(int(float(position.qty)))
-                    respSO = []
-                    tSubmitOrder = threading.Thread(target=self.submitOrder(qty, position.symbol, orderSide, respSO))
-                    tSubmitOrder.start()
-                    tSubmitOrder.join()
+                    if (self.long.count(position.symbol) == 0):
+                        # Position is not in long list.
+                        if (self.short.count(position.symbol) == 0):
+                    #profloss if greater than 8% take profit
+                            profloss = float(positions[1].unrealized_plpc) * 100
+                            if (profloss>8 or (profloss<-4)):
+                                orderSide = 'sell'
+                                qty = abs(int(float(position.qty)))
+                                respSO = []
+                                tSubmitOrder = threading.Thread(target=self.submitOrder(qty, position.symbol, orderSide, respSO))
+                                tSubmitOrder.start()
+                                tSubmitOrder.join()
 
                 # Run script again after market close for next trading day.
+                #Also updates the stock list based on today for tmmrws tickers
+                self.importT()
                 print("Sleeping until market close (15 minutes).")
                 time.sleep(60 * 15)
             else:
-                # Rebalance the portfolio.
                 print(5)
-                #tRebalance = threading.Thread(target=self.rebalance)
-                #tRebalance.start()
-                #tRebalance.join()
                 time.sleep(60)
-
-
-
-
-
-
-
         logging.info("PROGRAM OFF")
+        return
+
+    def submitOrder(self,qty,symbol,orderSide, respSO):
+
         return
     def importT(self):
         #imprt tickers
         scrape = YahooScrape()
         scrape.findVolatile(100)
         self.tickers= scrape.sortValid(1)
+        return
     def marketHours(self):
         clock = self.api.get_clock()
         print('The market is {}'.format('open.' if clock.is_open else 'closed.'))
