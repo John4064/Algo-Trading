@@ -16,6 +16,7 @@ def run():
     try:
         ss.findVolatile(100)
         #Returns the tickers
+        print(ss.vol)
         return ss.sortValid(1)
         #ss.sortValid(1)
     except:
@@ -30,3 +31,4 @@ def run():
 if __name__ == '__main__':
     tickers =['BAC', 'PPD', 'QS', 'NRZ', 'NUAN', 'GSK', 'KIM', 'DELL']
     myApi = algo()
+    #run()
