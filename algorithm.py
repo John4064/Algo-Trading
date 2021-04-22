@@ -17,19 +17,14 @@ class algo:
         self.api = alpaca.REST(TESTAPI_KEY, TESTAPI_SECRET, APCA_API_BASE_URL, 'v2')
         self.account = self.api.get_account()
         self.tickers = []
-        #for x in self.tickers:
-            #self.movingData(x,30)
-            #self.volumeCheck(x,30)
-        self.importT()
-        #self.rsiIndicator()
         self.blacklist = []
         self.timeToClose = None
-        #pos = self.api.list_positions()
-        #print(float(pos[1].unrealized_plpc) * 100)
         self.run()
 
     def run(self):
+        self.importT()
         while True:
+            #Calculate time and time to closing as well as sets the positions
             self.clock = self.api.get_clock()
             closingTime = self.clock.next_close.replace(tzinfo=timezone.utc).timestamp()
             currTime = self.clock.timestamp.replace(tzinfo=timezone.utc).timestamp()
@@ -44,13 +39,13 @@ class algo:
                     self.importT()
                     print("Sleeping until market close (15 minutes).")
                     time.sleep(60 * 15)
+                    #major bug here need to just clean up this elif
                 elif(self.timeToClose == (60*60)):
                     print("An Hour is Left Importing for end day trading!")
                     self.importT()
                     time.sleep(60)
                 else:
                     #Checking tickers for indicator
-
                     #When live, on 1 minute interval we check
                     #If stocks are ready to sell
                     for position in positions:
@@ -59,13 +54,15 @@ class algo:
                         if (profloss > 8 or (profloss < -4)):
                             orderSide = 'sell'
                             qty = abs(int(float(position.qty)))
+                            #not entirelly sure was respSO is
                             respSO = []
-                            print()
+                            #Logging, printing, submitting orders
                             logging.info("SOLD {}".format(position.symbol))
                             print("SOLD {}".format(position.symbol))
                             tSubmitOrder = threading.Thread(target=self.submitOrder(qty, position.symbol, orderSide, respSO))
                             tSubmitOrder.start()
                             tSubmitOrder.join()
+                    #Checkings the SMA indicator of our tickers for purchases
                     self.sma()
                     time.sleep(60)
             else:
@@ -76,11 +73,22 @@ class algo:
         return
 
     def submitOrder(self,qty,symbol,orderSide, respSO):
+        """
+        :param qty: Quantity of the shares
+        :param symbol: Which specific symbol
+        :param orderSide: Do we purchase or sell it
+        :param respSO: Not sure
+        :return:
+        """
         x = symbol
         t = qty
         self.api.submit_order(symbol=x, qty=t, side=orderSide, type='market',time_in_force='day')
         return
     def importT(self):
+        """
+        Sets the tickers list of all volatile and valid stocks from scrape
+        :return:
+        """
         #imprt tickers
         scrape = YahooScrape()
         scrape.findVolatile(100)
@@ -139,8 +147,6 @@ class algo:
                     except:
                         print("ERROR WITH ORDER PROBABLY ON PRICE")
         return
-    def moving_average(self,x, w):
-        return np.convolve(x, np.ones(w), 'valid') / w
 
     def rsiIndicator(self):
         barTimeframe = "1D"  # 1Min, 5Min, 15Min, 1H, 1D
@@ -201,14 +207,8 @@ class algo:
                     except:
                         print("ERROR WITH ORDER PROBABLY ON PRICE")
         return
-
-    def active(self):
-        #aapl = self.api.get_barset('AAPL', '15Min',limit=1000).df
-        #print(aapl.loc['2021-02-16 18:45:00-05:00'])
-        orders = self.api.list_orders(status="")
-        active_assets = self.api.list_positions()
-        print(active_assets)
-        return
+    def moving_average(self,x, w):
+        return np.convolve(x, np.ones(w), 'valid') / w
 
 
 
