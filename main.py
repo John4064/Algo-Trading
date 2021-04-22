@@ -4,12 +4,16 @@ from config import *
 from datetime import datetime as dt
 # Press the green button in the gutter to run the script.
 from algorithm import *
+from indicators import *
 
 import ast
 
 
 
 def run():
+    """
+    To Test importing tickers
+    """
     ss = YahooScrape()
     #voldf is the voltaile dataframe contains all info
     #sort valid creates valid stocks which is just a list of tickers
@@ -30,5 +34,7 @@ def run():
 
 if __name__ == '__main__':
     tickers =['BAC', 'PPD', 'QS', 'NRZ', 'NUAN', 'GSK', 'KIM', 'DELL']
-    myApi = algo()
+    #myApi = algo()
     #run()
+    print(1)
+    myInd = indicators(0)

@@ -1,14 +1,23 @@
 import config
 import numpy as np
+import pandas as pd
+import alpaca-trade-api as alpaca
+
 class indicators():
 
     def __init__(self,ind):
         #ind determines which indicactor it is
-        self.ind = ind
+        """
+        ind determines which indicator to use
+        0 is Simple Moving Average
+        1 is Rsi indicator
+        """
+        self.indic = ind
+        self.tickers = 'BA'
 
     #actual indiaqctors
     def sma(self):
-
+        return
     #calculations
     def moving_average(self,x, w):
         """
