@@ -5,10 +5,17 @@ from datetime import datetime as dt
 # Press the green button in the gutter to run the script.
 from algorithm import *
 from indicators import *
+from PyQt5.QtWidgets import QApplication
+from PyQt5.QtWidgets import QLabel
+from PyQt5.QtWidgets import QWidget
+from PyQt5.QtWidgets import QHBoxLayout
+from PyQt5.QtWidgets import QPushButton
+from PyQt5.QtWidgets import QWidget
+from PyQt5.QtWidgets import QMainWindow
+from PyQt5.QtWidgets import QStatusBar
 
-import ast
-
-
+from PyQt5.QtWidgets import QToolBar
+import sys
 
 def run():
     """
@@ -30,11 +37,43 @@ def run():
     #print(ss.voldf['Symbol'])
     return []
 
+class gui(QMainWindow):
+    def __init__(self,parent=None):
+        """Initializer."""
+        super().__init__(parent)
+        self.setWindowTitle('QMainWindow')
+        self.setCentralWidget(QLabel("I'm the Central Widget"))
+        self._createMenu()
+        self._createToolBar()
+        self._createStatusBar()
+        self.setGeometry(600, 100, 680, 380)
+        # 4. Show your application's GUI
+        #window.show()
+        # 5. Run your application's event loop (or main loop)
+    def _createMenu(self):
+        self.menu = self.menuBar().addMenu("&Menu")
+        self.menu.addAction('&Exit', self.close)
 
+
+    def _createToolBar(self):
+        tools = QToolBar()
+        self.addToolBar(tools)
+        tools.addAction('Exit', self.close)
+
+
+    def _createStatusBar(self):
+        status = QStatusBar()
+        status.showMessage("I'm the Status Bar")
+        self.setStatusBar(status)
 
 if __name__ == '__main__':
-    tickers =['BAC', 'PPD', 'QS', 'NRZ', 'NUAN', 'GSK', 'KIM', 'DELL']
-    #myApi = algo()
-    #run()
-    print(1)
-    myInd = indicators(0)
+    tickers =['SKLZ', 'T', 'NKLA', 'FSR', 'TDC', 'HPE', 'HBAN', 'CS', 'CHPT', 'DOW', 'XM', 'NUAN', 'YSG', 'WBT']
+    myApi = algo()
+    #rsiIndicator()
+
+    #app = QApplication(sys.argv)
+    #win = gui()
+    #win.show()
+    #sys.exit(app.exec_())
+
+

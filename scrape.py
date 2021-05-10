@@ -147,6 +147,7 @@ class YahooScrape():
         # Returns a list containing a dictionary
         return u
     def sortValid(self,option):
+        print(1)
         # This function takes the list of active stocks
         # determines which match a 2:1 ratio of the current volume based on avg
         #Then Checks the price for >5
@@ -156,9 +157,12 @@ class YahooScrape():
         for x in range(len(stocks)):
             #gets the finanacial stats for every one, then volume, avgvolume, the open price
             stats =self.findStat(stocks[x])
-            vol = int(stats[6]['Volume'].replace(',', ''))
-            avgVol=int(stats[7]['Avg. Volume'].replace(',', ''))
-            price = float(stats[1]['Open'])
+            try:
+                vol = int(stats[6]['Volume'].replace(',', ''))
+                avgVol=int(stats[7]['Avg. Volume'].replace(',', ''))
+                price = float(stats[1]['Open'])
+            except:
+                next()
             #checks the price to get rid of any penny stocks immediatly.
             if(price > 4.9):
                 # CHECKS that the volume is double avg volume

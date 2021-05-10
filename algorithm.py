@@ -7,6 +7,7 @@ import logging
 from scrape import *
 import time
 import threading
+import twelvedata as td
 ColoramaInit(autoreset=True)
 
 #Logging info
@@ -19,7 +20,24 @@ class algo:
         self.tickers = []
         self.blacklist = []
         self.timeToClose = None
+        #self.importT()
+        self.td = td.TDClient(apikey=HISAPI_KEY)
+        #self.test()
         self.run()
+    def test(self):
+        ticks = ['g','twtr','wdc','appl']
+        potential = []
+        ts = self.td.time_series(
+            symbol=ticks[2],
+            interval="1day"
+        ).as_pandas()
+        test = 0
+        for x in ts['close']:
+            test +=x
+        print(test/len(ts))
+        #30 day closing average
+        return
+
 
     def run(self):
         self.importT()

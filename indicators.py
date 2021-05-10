@@ -1,19 +1,19 @@
 import config
 import numpy as np
 import pandas as pd
-import alpaca-trade-api as alpaca
-
+import alpaca_trade_api as alpaca
+from config import *
 class indicators():
 
-    def __init__(self,ind):
+    def __init__(self):
         #ind determines which indicactor it is
         """
         ind determines which indicator to use
         0 is Simple Moving Average
         1 is Rsi indicator
         """
-        self.indic = ind
         self.tickers = 'BA'
+        self.api = alpaca.REST(TESTAPI_KEY, TESTAPI_SECRET, APCA_API_BASE_URL, 'v2')
 
     #actual indiaqctors
     def sma(self):
@@ -27,3 +27,6 @@ class indicators():
         :return: The moving average of the sequence(x) in a list so we can see
         """
         return np.convolve(x, np.ones(w), 'valid') / w
+
+    def rsiIndicator(self):
+        return
