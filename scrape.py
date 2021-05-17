@@ -172,11 +172,3 @@ class YahooScrape():
             self.validStocks = ans
         return ans
 
-def updateTime():
-    now = datetime.now()
-    current_time = now.strftime("%H:%M:%S")
-    hour = int(current_time[0] + current_time[1])
-    min = int(current_time[3] + current_time[4])
-    sec = int(current_time[6] + current_time[7])
-    return hour,min,sec
-

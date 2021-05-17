@@ -13,8 +13,8 @@ from PyQt5.QtWidgets import QPushButton
 from PyQt5.QtWidgets import QWidget
 from PyQt5.QtWidgets import QMainWindow
 from PyQt5.QtWidgets import QStatusBar
-
 from PyQt5.QtWidgets import QToolBar
+import time
 import sys
 
 def run():
@@ -41,17 +41,19 @@ class gui(QMainWindow):
     def __init__(self,parent=None):
         """Initializer."""
         super().__init__(parent)
+        self.tickers = ['g', 'twtr', 'amd']
         self.setWindowTitle('QMainWindow')
         self.setCentralWidget(QLabel("I'm the Central Widget"))
         self._createMenu()
         self._createToolBar()
         self._createStatusBar()
         self.setGeometry(600, 100, 680, 380)
+
         # 4. Show your application's GUI
         #window.show()
         # 5. Run your application's event loop (or main loop)
     def _createMenu(self):
-        self.menu = self.menuBar().addMenu("&Menu")
+        self.menu = self.menuBar().addMenu("&File")
         self.menu.addAction('&Exit', self.close)
 
 
@@ -63,17 +65,19 @@ class gui(QMainWindow):
 
     def _createStatusBar(self):
         status = QStatusBar()
-        status.showMessage("I'm the Status Bar")
+        status.showMessage(self.tickers[1],10000)
         self.setStatusBar(status)
-
+def test():
+    app = QApplication(sys.argv)
+    win = gui()
+    win.show()
+    sys.exit(app.exec_())
+    return
 if __name__ == '__main__':
     tickers =['SKLZ', 'T', 'NKLA', 'FSR', 'TDC', 'HPE', 'HBAN', 'CS', 'CHPT', 'DOW', 'XM', 'NUAN', 'YSG', 'WBT']
     myApi = algo()
     #rsiIndicator()
+    #test()
 
-    #app = QApplication(sys.argv)
-    #win = gui()
-    #win.show()
-    #sys.exit(app.exec_())
 
 
