@@ -7,6 +7,12 @@ import logging
 from scrape import *
 import time
 import threading
+import twelvedata as td
+#Useless
+import matplotlib
+from PyQt5 import QtCore, QtWidgets
+from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg
+from matplotlib.figure import Figure
 ColoramaInit(autoreset=True)
 
 #Logging info
@@ -14,22 +20,62 @@ ColoramaInit(autoreset=True)
 logging.basicConfig(filename='trades.log', level=logging.INFO)
 class algo:
     def __init__(self):
+        #Initialization of accounts api, account, twelvedataclients
         self.api = alpaca.REST(TESTAPI_KEY, TESTAPI_SECRET, APCA_API_BASE_URL, 'v2')
         self.account = self.api.get_account()
+        self.td = td.TDClient(apikey=HISAPI_KEY)
+        #Potential Stocks to check
         self.tickers = []
-        #for x in self.tickers:
-            #self.movingData(x,30)
-            #self.volumeCheck(x,30)
-        self.importT()
-        #self.rsiIndicator()
+        #Stocks the made it past the initial check
+        self.approved = ['rblx','AMD','wdc','ups','NFLX','ABNB','ADN','intc']
         self.blacklist = []
         self.timeToClose = None
-        #pos = self.api.list_positions()
-        #print(float(pos[1].unrealized_plpc) * 100)
-        self.run()
+        #self.importT()
 
+        self.test()
+        #self.run()
+    def test(self):
+        #RSI indicator
+        #under30 is undervalued/oversold and  over 70 is overvalued/undersold
+        #stonk = self.approved[5]
+        for stonk in self.approved:
+            print(stonk)
+            alp = self.api.get_barset(stonk,'1D',limit=14).df
+            """
+            ts = self.td.time_series(
+                symbol=stonk,
+                outputsize=14,
+                interval="1day"
+                )
+            """
+            alp.columns = alp.columns.get_level_values(1)
+            if(len(alp)>0):
+                test5=sum(alp['close'])/len(alp)
+                print("Average closing price {}".format(test5))
+                #determine if higher or lower
+                if(alp['close'][13]>alp['close'][12]):
+                    print("current day is higher")
+                else:
+                    print("Previous day is higher")
+                #rsi = 100 - (100/(1+RS))
+                for x in range(len(alp['close'])-1):
+                    print(alp['close'][x])
+                    print(alp['close'][x]-alp['open'][x+1])
+            else:
+                print("Empty Dataframe FUCKING ALPACA")
+            #test = ts.as_pandas()
+            #close = sum(test['close'])
+            #print(close/len(test['close']))
+        #closeP = test['close']
+        #highP= ts['high']
+        #lowP = ts['low']
+        #volP = ts['volume']
+        #30 day closing average
+        return
     def run(self):
+        self.importT()
         while True:
+            #Calculate time and time to closing as well as sets the positions
             self.clock = self.api.get_clock()
             closingTime = self.clock.next_close.replace(tzinfo=timezone.utc).timestamp()
             currTime = self.clock.timestamp.replace(tzinfo=timezone.utc).timestamp()
@@ -44,13 +90,13 @@ class algo:
                     self.importT()
                     print("Sleeping until market close (15 minutes).")
                     time.sleep(60 * 15)
+                    #major bug here need to just clean up this elif
                 elif(self.timeToClose == (60*60)):
                     print("An Hour is Left Importing for end day trading!")
                     self.importT()
                     time.sleep(60)
                 else:
                     #Checking tickers for indicator
-
                     #When live, on 1 minute interval we check
                     #If stocks are ready to sell
                     for position in positions:
@@ -59,13 +105,18 @@ class algo:
                         if (profloss > 8 or (profloss < -4)):
                             orderSide = 'sell'
                             qty = abs(int(float(position.qty)))
-                            respSO = []
-                            print()
+                            #not entirelly sure was respSO is
+                            #Logging, printing, submitting orders
                             logging.info("SOLD {}".format(position.symbol))
                             print("SOLD {}".format(position.symbol))
-                            tSubmitOrder = threading.Thread(target=self.submitOrder(qty, position.symbol, orderSide, respSO))
-                            tSubmitOrder.start()
-                            tSubmitOrder.join()
+                            try:
+                                tSubmitOrder = threading.Thread(target=self.submitOrder(qty, position.symbol, orderSide))
+                                tSubmitOrder.start()
+                                tSubmitOrder.join()
+                            except:
+                                print("ERROR IN SELLING QUANTITY")
+                    #Checkings the SMA indicator of our tickers for purchases
+                    #This needs to be clean up and proper
                     self.sma()
                     time.sleep(60)
             else:
@@ -74,22 +125,22 @@ class algo:
                 time.sleep(60*15)
         logging.info("PROGRAM OFF")
         return
-
-    def submitOrder(self,qty,symbol,orderSide, respSO):
+    def submitOrder(self,qty,symbol,orderSide):
+        """
+        :param qty: Quantity of the shares
+        :param symbol: Which specific symbol
+        :param orderSide: Do we purchase or sell it
+        :return:
+        """
         x = symbol
         t = qty
         self.api.submit_order(symbol=x, qty=t, side=orderSide, type='market',time_in_force='day')
         return
-    def importT(self):
-        #imprt tickers
-        scrape = YahooScrape()
-        scrape.findVolatile(100)
-        self.tickers= scrape.sortValid(1)
-        print(self.tickers)
-        logging.info(self.tickers)
-        return
-
     def sma(self):
+        """
+        Indicator runs through all our tickers for the algorithm
+        :return: void
+        """
         barTimeframe = "1D"  # 1Min, 5Min, 15Min, 1H, 1D
         for x in self.tickers:
             returned_data = self.api.get_barset(x, barTimeframe, limit=100)
@@ -115,20 +166,14 @@ class algo:
             #Now that we have the stocks for the trading indicator
             #MASSIVE BUG HERE EDIT THE TRY/EXCEPT WHEN GET TO IT
             if(final20>final50):
+                self.approved.append(x)
                 try:
-                    #Throws an error if there is not a position
+                    #Throws an error if there is not a position which means we buy it
                     openPosition = self.api.get_position(x)
                 except:
-                    # Opens new position if one does not exist
-                    #If we havent already bought this stock
-                    #Gets our cash balance and the last quote for the stock
-                    cashBalance = float(self.api.get_account().cash)
-                    test = self.api.get_last_quote(x)._raw
-                    #Then calculates the target position based on our maxpos(.25) and current price
-                    price =test['askprice']
-                    if(price  == 0):
-                        price =test['bidprice']
-                    targetPositionSize = round(cashBalance / (price / maxPos),2)
+                    #Calculates the price and size of our position
+                    price,targetPositionSize = self.calculateQ(x)
+                    #logs and prints all the transaction (Put in function for later)
                     print("We are going to buy: {} at {} for a total amount of {}".format(x,price,targetPositionSize))
                     logging.info("We are going to buy: {} at {} for a total amount of {}".format(x,price,targetPositionSize))
                     #order examples
@@ -141,74 +186,34 @@ class algo:
         return
     def moving_average(self,x, w):
         return np.convolve(x, np.ones(w), 'valid') / w
-
-    def rsiIndicator(self):
-        barTimeframe = "1D"  # 1Min, 5Min, 15Min, 1H, 1D
-        for x in self.tickers:
-            returned_data = self.api.get_barset(x, barTimeframe, limit=100)
-            timeList = []
-            openList = []
-            highList = []
-            lowList = []
-            closeList = []
-            volumeList = []
-            #Converting returned data to dataframe and flattening the columns
-            bar = returned_data.df
-            bar.columns = bar.columns.get_level_values(1)
-            # Iterates through the barset thats in a dataframe and puts them into individual lists
-            for index,row in bar.iterrows():
-                #print(row['open'],row['volume'])
-                #timeList.append(strptime(bar.time, '%Y-%m-%dT%H:%M:%SZ'))
-                openList.append(row['open'])
-                highList.append(row['high'])
-                lowList.append(row['low'])
-                closeList.append(row['close'])
-                volumeList.append(row['volume'])
-
-            #From lists to numpy arrays to use
-            timeList = np.array(timeList)
-            openList = np.array(openList, dtype=np.float64)
-            highList = np.array(highList, dtype=np.float64)
-            lowList = np.array(lowList, dtype=np.float64)
-            closeList = np.array(closeList, dtype=np.float64)
-            volumeList = np.array(volumeList, dtype=np.float64)
-            # Calculated RSI trading indicator
-            rsiI= 20
-            #Now that we have the stocks for the trading indicator
-            #MASSIVE BUG HERE EDIT THE TRY/EXCEPT WHEN GET TO IT
-            if(rsiI==20):
-                try:
-                    #Throws an error if there is not a position
-                    openPosition = self.api.get_position(x)
-                except:
-                    # Opens new position if one does not exist
-                    #If we havent already bought this stock
-                    #Gets our cash balance and the last quote for the stock
-                    cashBalance = float(self.api.get_account().cash)
-                    test = self.api.get_last_quote(x)._raw
-                    #Then calculates the target position based on our maxpos(.25) and current price
-                    price =test['askprice']
-                    if(price  == 0):
-                        price =test['bidprice']
-                    targetPositionSize = round(cashBalance / (price / maxPos),2)
-                    print("We are going to buy: {} at {} for a total amount of {}".format(x,price,targetPositionSize))
-                    logging.info("We are going to buy: {} at {} for a total amount of {}".format(x,price,targetPositionSize))
-                    #order examples
-                    #Send order
-                    print("{} for {}".format(x,round(targetPositionSize/price) ))
-                    try:
-                        self.submitOrder(round(targetPositionSize/price),x,'buy',[])
-                    except:
-                        print("ERROR WITH ORDER PROBABLY ON PRICE")
+    def importT(self):
+        """
+        Sets the tickers list of all volatile and valid stocks from scrape
+        :return:
+        """
+        #imprt tickers
+        scrape = YahooScrape()
+        scrape.findVolatile(100)
+        self.tickers= scrape.sortValid(1)
+        print(self.tickers)
+        logging.info(self.tickers)
         return
-
-    def active(self):
-        #aapl = self.api.get_barset('AAPL', '15Min',limit=1000).df
-        #print(aapl.loc['2021-02-16 18:45:00-05:00'])
-        orders = self.api.list_orders(status="")
-        active_assets = self.api.list_positions()
-        print(active_assets)
-        return
+    def calculateQ(self,stock):
+        """ This calculates the amount we are going to buy with current cash balance
+        :param stock: Ticker of the stock
+        :return:
+        """
+        # Opens new position if one does not exist
+        # If we havent already bought this stock
+        # Gets our cash balance and the last quote for the stock
+        cashBalance = float(self.api.get_account().cash)
+        test = self.api.get_last_quote(stock)._raw
+        # Then calculates the target position based on our maxpos(.25) and current price
+        price = test['askprice']
+        if (price == 0):
+            price = test['bidprice']
+        targetPositionSize = round(cashBalance / (price / maxPos), 2)
+        return price,targetPositionSize
 
 
 
