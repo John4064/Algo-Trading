@@ -57,6 +57,10 @@ class algo:
                     print("current day is higher")
                 else:
                     print("Previous day is higher")
+                #rsi = 100 - (100/(1+RS))
+                for x in range(len(alp['close'])-1):
+                    print(alp['close'][x])
+                    print(alp['close'][x]-alp['open'][x+1])
             else:
                 print("Empty Dataframe FUCKING ALPACA")
             #test = ts.as_pandas()
@@ -69,7 +73,7 @@ class algo:
         #30 day closing average
         return
     def run(self):
-        #self.importT()
+        self.importT()
         while True:
             #Calculate time and time to closing as well as sets the positions
             self.clock = self.api.get_clock()

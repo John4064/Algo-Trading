@@ -161,14 +161,15 @@ class YahooScrape():
                 vol = int(stats[6]['Volume'].replace(',', ''))
                 avgVol=int(stats[7]['Avg. Volume'].replace(',', ''))
                 price = float(stats[1]['Open'])
+                if (price > 4.9):
+                    # CHECKS that the volume is double avg volume
+                    if (vol > avgVol * 2):
+                        # financials index 19 is the float
+                        ans.append(stocks[x])
+                self.validStocks = ans
             except:
-                next()
+                print("Skipping Import Text Error")
             #checks the price to get rid of any penny stocks immediatly.
-            if(price > 4.9):
-                # CHECKS that the volume is double avg volume
-                if (vol > avgVol*2):
-                    # financials index 19 is the float
-                    ans.append(stocks[x])
-            self.validStocks = ans
+
         return ans
 
