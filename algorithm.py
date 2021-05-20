@@ -32,8 +32,8 @@ class algo:
         self.timeToClose = None
         #self.importT()
 
-        self.test()
-        #self.run()
+        #self.test()
+        self.run()
     def test(self):
         #RSI indicator
         #under30 is undervalued/oversold and  over 70 is overvalued/undersold
@@ -99,6 +99,7 @@ class algo:
                     #Checking tickers for indicator
                     #When live, on 1 minute interval we check
                     #If stocks are ready to sell
+                    self.sma()
                     for position in positions:
                         print("check position")
                         profloss = float(position.unrealized_plpc) * 100
@@ -109,15 +110,14 @@ class algo:
                             #Logging, printing, submitting orders
                             logging.info("SOLD {}".format(position.symbol))
                             print("SOLD {}".format(position.symbol))
-                            try:
-                                tSubmitOrder = threading.Thread(target=self.submitOrder(qty, position.symbol, orderSide))
-                                tSubmitOrder.start()
-                                tSubmitOrder.join()
-                            except:
-                                print("ERROR IN SELLING QUANTITY")
+
+                            tSubmitOrder = threading.Thread(target=self.submitOrder(qty, position.symbol, orderSide))
+                            tSubmitOrder.start()
+                            tSubmitOrder.join()
+
                     #Checkings the SMA indicator of our tickers for purchases
                     #This needs to be clean up and proper
-                    self.sma()
+
                     time.sleep(60)
             else:
                 #When off
@@ -174,13 +174,14 @@ class algo:
                     #Calculates the price and size of our position
                     price,targetPositionSize = self.calculateQ(x)
                     #logs and prints all the transaction (Put in function for later)
-                    print("We are going to buy: {} at {} for a total amount of {}".format(x,price,targetPositionSize))
-                    logging.info("We are going to buy: {} at {} for a total amount of {}".format(x,price,targetPositionSize))
+                    print("We are going to buy: {} at {} for a total amount of {}".format(x,price,round(targetPositionSize)-1))
+                    logging.info("We are going to buy: {} at {} for a total amount of {}".format(x,price,round(targetPositionSize)-1))
                     #order examples
                     #Send order
-                    print("{} for {}".format(x,round(targetPositionSize/price) ))
+                    #NEEDS TO BE WHOLE NUMBER (Buggy with Fractional Shares
+                    self.submitOrder(round(targetPositionSize) - 1, x, 'buy', [])
                     try:
-                        self.submitOrder(round(targetPositionSize/price),x,'buy',[])
+                       print("Success Buy")
                     except:
                         print("ERROR WITH ORDER PROBABLY ON PRICE")
         return
@@ -194,7 +195,7 @@ class algo:
         #imprt tickers
         scrape = YahooScrape()
         scrape.findVolatile(100)
-        self.tickers= scrape.sortValid(1)
+        self.tickers.extend(scrape.sortValid(1))
         print(self.tickers)
         logging.info(self.tickers)
         return

@@ -162,7 +162,7 @@ class YahooScrape():
                 avgVol=int(stats[7]['Avg. Volume'].replace(',', ''))
                 price = float(stats[1]['Open'])
                 if (price > 4.9):
-                    # CHECKS that the volume is double avg volume
+                    # CHECKS that the volume is over double avg volume
                     if (vol > avgVol * 2):
                         # financials index 19 is the float
                         ans.append(stocks[x])

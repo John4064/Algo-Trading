@@ -1,7 +1,6 @@
 
 import alpaca_trade_api as alpaca
 from config import *
-from datetime import datetime as dt
 # Press the green button in the gutter to run the script.
 from algorithm import *
 from indicators import *
@@ -16,6 +15,7 @@ from PyQt5.QtWidgets import QStatusBar
 from PyQt5.QtWidgets import QToolBar
 import time
 import sys
+import matplotlib
 
 def run():
     """
@@ -36,19 +36,31 @@ def run():
 
     #print(ss.voldf['Symbol'])
     return []
+class MplCanvas(FigureCanvasQTAgg):
+
+    def __init__(self, parent=None, width=5, height=4, dpi=100):
+        fig = Figure(figsize=(width, height), dpi=dpi)
+        self.axes = fig.add_subplot(111)
+        super(MplCanvas, self).__init__(fig)
 
 class gui(QMainWindow):
     def __init__(self,parent=None):
+        width=680
+        height=600
         """Initializer."""
         super().__init__(parent)
         self.tickers = ['g', 'twtr', 'amd']
-        self.setWindowTitle('QMainWindow')
-        self.setCentralWidget(QLabel("I'm the Central Widget"))
+        self.setWindowTitle('Omega Pulse Stock')
+        #self.setCentralWidget(self._createCenter())
+        sc = MplCanvas(self, width=5, height=4, dpi=100)
+        sc.axes.plot([0, 1, 2, 3, 4], [10, 1, 20, 3, 40])
+        self.setCentralWidget(self._createCenter())
+        self.centralWidget().setStyleSheet("border :13px solid black; background-color: rgb(0, 0, 255);")
         self._createMenu()
         self._createToolBar()
         self._createStatusBar()
         self.setGeometry(600, 100, 680, 380)
-
+        self.setFixedSize(width, height)
         # 4. Show your application's GUI
         #window.show()
         # 5. Run your application's event loop (or main loop)
@@ -56,12 +68,13 @@ class gui(QMainWindow):
         self.menu = self.menuBar().addMenu("&File")
         self.menu.addAction('&Exit', self.close)
 
+    def _createCenter(self):
+        return QLabel("This is the good ole fashion center widget")
 
     def _createToolBar(self):
         tools = QToolBar()
         self.addToolBar(tools)
         tools.addAction('Exit', self.close)
-
 
     def _createStatusBar(self):
         status = QStatusBar()
