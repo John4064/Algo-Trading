@@ -4,15 +4,8 @@ from config import *
 # Press the green button in the gutter to run the script.
 from algorithm import *
 from indicators import *
-from PyQt5.QtWidgets import QApplication
-from PyQt5.QtWidgets import QLabel
-from PyQt5.QtWidgets import QWidget
-from PyQt5.QtWidgets import QHBoxLayout
-from PyQt5.QtWidgets import QPushButton
-from PyQt5.QtWidgets import QWidget
-from PyQt5.QtWidgets import QMainWindow
-from PyQt5.QtWidgets import QStatusBar
-from PyQt5.QtWidgets import QToolBar
+from PyQt5.QtWidgets import *
+from PyQt5.QtCore import Qt
 import time
 import sys
 import matplotlib
@@ -46,7 +39,7 @@ class MplCanvas(FigureCanvasQTAgg):
 class gui(QMainWindow):
     def __init__(self,parent=None):
         width=680
-        height=600
+        height=1000
         """Initializer."""
         super().__init__(parent)
         self.tickers = ['g', 'twtr', 'amd']
@@ -54,8 +47,9 @@ class gui(QMainWindow):
         #self.setCentralWidget(self._createCenter())
         sc = MplCanvas(self, width=5, height=4, dpi=100)
         sc.axes.plot([0, 1, 2, 3, 4], [10, 1, 20, 3, 40])
-        self.setCentralWidget(self._createCenter())
-        self.centralWidget().setStyleSheet("border :13px solid black; background-color: rgb(0, 0, 255);")
+        widget = self._createWidget()
+        self.setCentralWidget(widget)
+        self.centralWidget().setStyleSheet("border :1px solid black; background-color: rgb(0, 0, 255);")
         self._createMenu()
         self._createToolBar()
         self._createStatusBar()
@@ -68,8 +62,32 @@ class gui(QMainWindow):
         self.menu = self.menuBar().addMenu("&File")
         self.menu.addAction('&Exit', self.close)
 
-    def _createCenter(self):
-        return QLabel("This is the good ole fashion center widget")
+    def _createWidget(self):
+        layout = QVBoxLayout()
+        widgets = [
+            QCheckBox,
+            QComboBox,
+            QDateEdit,
+            QDateTimeEdit,
+            QDial,
+            QDoubleSpinBox,
+            QFontComboBox,
+            QLCDNumber,
+            QLabel,
+            QLineEdit,
+            QProgressBar,
+            QPushButton,
+            QRadioButton,
+            QSlider,
+            QSpinBox,
+            QTimeEdit,
+        ]
+        for w in widgets:
+            layout.addWidget(w())
+        widget = QWidget()
+        widget.setLayout(layout)
+        #QLabel("This is the good ole fashion center widget")
+        return widget
 
     def _createToolBar(self):
         tools = QToolBar()
@@ -78,7 +96,7 @@ class gui(QMainWindow):
 
     def _createStatusBar(self):
         status = QStatusBar()
-        status.showMessage(self.tickers[1],10000)
+        status.showMessage(self.tickers[1])
         self.setStatusBar(status)
 def test():
     app = QApplication(sys.argv)
@@ -88,9 +106,9 @@ def test():
     return
 if __name__ == '__main__':
     tickers =['SKLZ', 'T', 'NKLA', 'FSR', 'TDC', 'HPE', 'HBAN', 'CS', 'CHPT', 'DOW', 'XM', 'NUAN', 'YSG', 'WBT']
-    myApi = algo()
+    #myApi = algo()
     #rsiIndicator()
-    #test()
+    test()
 
 
 
