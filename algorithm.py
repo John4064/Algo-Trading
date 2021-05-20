@@ -31,9 +31,8 @@ class algo:
         self.blacklist = []
         self.timeToClose = None
         #self.importT()
-
         #self.test()
-        self.run()
+        #self.run()
     def test(self):
         #RSI indicator
         #under30 is undervalued/oversold and  over 70 is overvalued/undersold
@@ -108,8 +107,8 @@ class algo:
                             qty = abs(int(float(position.qty)))
                             #not entirelly sure was respSO is
                             #Logging, printing, submitting orders
-                            logging.info("SOLD {}".format(position.symbol))
-                            print("SOLD {}".format(position.symbol))
+                            logging.info("AT {} SOLD {}".format(time.ctime(),position.symbol))
+                            print("AT{} SOLD {}".format(time.ctime(),position.symbol))
 
                             tSubmitOrder = threading.Thread(target=self.submitOrder(qty, position.symbol, orderSide))
                             tSubmitOrder.start()
@@ -174,8 +173,8 @@ class algo:
                     #Calculates the price and size of our position
                     price,targetPositionSize = self.calculateQ(x)
                     #logs and prints all the transaction (Put in function for later)
-                    print("We are going to buy: {} at {} for a total amount of {}".format(x,price,round(targetPositionSize)-1))
-                    logging.info("We are going to buy: {} at {} for a total amount of {}".format(x,price,round(targetPositionSize)-1))
+                    print("On {} We are going to buy: {} at {} for a total amount of {}".format(time.ctime(),x,price,round(targetPositionSize)-1))
+                    logging.info("On {} We are going to buy: {} at {} for a total amount of {}".format(time.ctime(), x,price,round(targetPositionSize)-1))
                     #order examples
                     #Send order
                     #NEEDS TO BE WHOLE NUMBER (Buggy with Fractional Shares
