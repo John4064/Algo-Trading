@@ -17,7 +17,7 @@ ColoramaInit(autoreset=True)
 
 #Logging info
 #ogging.basicConfig(filename='debug.log', level=logging.DEBUG)
-logging.basicConfig(filename='trades.log', level=logging.INFO)
+logging.basicConfig(filename='Misc/trades.log', level=logging.INFO)
 class algo:
     def __init__(self):
         #Initialization of accounts api, account, twelvedataclients
@@ -27,12 +27,12 @@ class algo:
         #Potential Stocks to check
         self.tickers = []
         #Stocks the made it past the initial check
-        self.approved = ['rblx','AMD','wdc','ups','NFLX','ABNB','ADN','intc']
+        self.approved = ['F', 'SPCE', 'RBLX', 'TAL', 'NVDA', 'MFC', 'IOVA', 'VFC', 'BEKE', 'YALA']
         self.blacklist = []
         self.timeToClose = None
         #self.importT()
         #self.test()
-        #self.run()
+        self.run()
     def test(self):
         #RSI indicator
         #under30 is undervalued/oversold and  over 70 is overvalued/undersold
@@ -178,7 +178,7 @@ class algo:
                     #order examples
                     #Send order
                     #NEEDS TO BE WHOLE NUMBER (Buggy with Fractional Shares
-                    self.submitOrder(round(targetPositionSize) - 1, x, 'buy', [])
+                    self.submitOrder(round(targetPositionSize) - 1, x, 'buy')
                     try:
                        print("Success Buy")
                     except:
