@@ -59,6 +59,7 @@ class MainWin(QWidget):
         self.box =QGroupBox(self)
         self.box.setGeometry(0,50,1200,500)
         self.box.setStyleSheet(self.test)
+        lay = 
         #CREATE A LAYOUT
         #top buttons
         #top=[]
