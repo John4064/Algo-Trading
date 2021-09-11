@@ -207,11 +207,11 @@ class algo:
         # If we havent already bought this stock
         # Gets our cash balance and the last quote for the stock
         cashBalance = float(self.api.get_account().cash)
-        test = self.api.get_last_quote(stock)._raw
+        quoteL = self.api.get_last_quote(stock)._raw
         # Then calculates the target position based on our maxpos(.25) and current price
-        price = test['askprice']
+        price = quoteL['askprice']
         if (price == 0):
-            price = test['bidprice']
+            price = quoteL['bidprice']
         targetPositionSize = round(cashBalance / (price / maxPos), 2)
         return price,targetPositionSize
 
