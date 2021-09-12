@@ -8,8 +8,8 @@ from PySide6.QtWidgets import *
 class MainWin(QWidget):
     def cssInt(self):
         #Declares all style sheets here
-        self.css = "QPushButton { background-color: yellow }"
-        self.test = "QGroupBox { background-color: yellow }"
+        self.css = "QPushButton { background-color: #003f4c }"
+        #Mainbody color: #003f4c
         return
     def chart(self):
         # Creating a series and importing the data
@@ -54,31 +54,29 @@ class MainWin(QWidget):
         This Method just declares and handles the connection between buttons
         :return: void
         """
-
-        #TEST STUFF
-        self.box =QGroupBox(self)
-        self.box.setGeometry(0,50,1200,500)
-        self.box.setStyleSheet(self.test)
-        lay = 
         #CREATE A LAYOUT
-        #top buttons
-        #top=[]
-        #for g in range(3):
         self.closeB = QPushButton('X', self)
         self.closeB.clicked.connect(lambda: self.close())
+        self.closeB.setMaximumWidth(50)
         self.minB = QPushButton('-', self)
         self.minB.clicked.connect(lambda: self.showMinimized())
-
+        self.minB.setMaximumWidth(50)
+        self.setB = QPushButton('===', self)
+        self.setB.clicked.connect(lambda: print('Settings'))
+        self.setB.setMaximumWidth(50)
         #Style Sheets
-        # self.closeB.setStyleSheet("font-family: Arial;color: white; background-color: blue")
+        #self.closeB.setStyleSheet("font-family: Arial;color: white; background-color: blue")
         #self.minB.setStyleSheet("font-family: Arial;color: white; background-color: blue")
-        #self.closeB.setStyleSheet(self.css)
-        #self.minB.setStyleSheet(self.css)
+        self.closeB.setStyleSheet(self.css)
+        self.minB.setStyleSheet(self.css)
+        self.minB.setFlat(False)
         return
     def __init__(self):
         super().__init__()
         #Setting the windows Requirements
         self.setGeometry(400, 100, 1200, 800)
+        self.setStyleSheet("QWidget {background-image: url(./background.png) }")
+#"QWidget {background-image: url(./image.png) }"
         self.setFixedSize(1200,800)
         self.setWindowTitle("Stonk")
         self.setWindowFlag(Qt.FramelessWindowHint, True)
@@ -88,3 +86,18 @@ class MainWin(QWidget):
         self.placement()
         return
 
+def deadcode():
+    #just a list of dead code for reference atm
+    # TEST STUFF
+    self.box = QGroupBox(self)
+    self.box.setGeometry(0, 0, 1200, 50)
+    self.box.setStyleSheet(self.test)
+    lay = QGridLayout(self.box)
+    """
+    lay.setSpacing(10)
+    lay.addWidget(self.setB,0,0)
+    lay.addWidget(self.minB,0,8)
+    lay.addWidget(self.closeB,0,9)
+"""
+    # self.box.setFlat(True)
+    # self.box.setAlignment(5)
