@@ -108,7 +108,7 @@ class algo:
                             #not entirelly sure was respSO is
                             #Logging, printing, submitting orders
                             logging.info("AT {} SOLD {}".format(time.ctime(),position.symbol))
-                            print("AT{} SOLD {}".format(time.ctime(),position.symbol))
+                            print("AT {} SOLD {}".format(time.ctime(),position.symbol))
 
                             tSubmitOrder = threading.Thread(target=self.submitOrder(qty, position.symbol, orderSide))
                             tSubmitOrder.start()
