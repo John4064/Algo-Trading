@@ -36,11 +36,13 @@ if __name__ == '__main__':
     #This creates the main window
     #myG = gui()
     # setting application object name
+
     App = QApplication(sys.argv)
     w = MainWin()
     w.show()
     App.setObjectName("GfG")
     sys.exit(App.exec())
+
     #rsiIndicator()
     #test()
 

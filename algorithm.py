@@ -35,8 +35,12 @@ class algo:
         self.run()
     def test(self):
         #RSI indicator
+        #Dead Code
+        """
+        @:param:
+        :return:
+        """
         #under30 is undervalued/oversold and  over 70 is overvalued/undersold
-        #stonk = self.approved[5]
         for stonk in self.approved:
             print(stonk)
             alp = self.api.get_barset(stonk,'1D',limit=14).df
@@ -62,14 +66,6 @@ class algo:
                     print(alp['close'][x]-alp['open'][x+1])
             else:
                 print("Empty Dataframe FUCKING ALPACA")
-            #test = ts.as_pandas()
-            #close = sum(test['close'])
-            #print(close/len(test['close']))
-        #closeP = test['close']
-        #highP= ts['high']
-        #lowP = ts['low']
-        #volP = ts['volume']
-        #30 day closing average
         return
     def run(self):
         self.importT()
