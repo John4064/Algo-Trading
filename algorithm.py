@@ -7,7 +7,6 @@ import logging
 from scrape import *
 import time
 import threading
-import twelvedata as td
 ColoramaInit(autoreset=True)
 
 #Logging info
@@ -18,7 +17,6 @@ class algo:
         #Initialization of accounts api, account, twelvedataclients
         self.api = alpaca.REST(TESTAPI_KEY, TESTAPI_SECRET, APCA_API_BASE_URL, 'v2')
         self.account = self.api.get_account()
-        self.td = td.TDClient(apikey=HISAPI_KEY)
         #Potential Stocks to check
         self.tickers = []
         #Stocks the made it past the initial check
@@ -39,13 +37,6 @@ class algo:
         for stonk in self.approved:
             print(stonk)
             alp = self.api.get_barset(stonk,'1D',limit=14).df
-            """
-            ts = self.td.time_series(
-                symbol=stonk,
-                outputsize=14,
-                interval="1day"
-                )
-            """
             alp.columns = alp.columns.get_level_values(1)
             if(len(alp)>0):
                 test5=sum(alp['close'])/len(alp)

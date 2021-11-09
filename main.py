@@ -6,9 +6,6 @@ from algorithm import *
 from indicators import *
 import time
 import sys
-#from frontend.gui import *
-import matplotlib
-import tkdesigner
 def run():
     """
     To Test importing tickers
