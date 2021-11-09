@@ -36,12 +36,12 @@
 <h3 align="center">Algorithmic Trading Bot</h3>
 
   <p align="center">
-    project_description
+    An algoirthmic trading bot utilizing Alpaca Trade API to take the human factor out of trading
     <br />
     <a href="https://github.com/John4064/StockAPI/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/John4064/StockAPI/">View Demo</a>
     ·
     <a href="https://github.com/John4064/StockAPI/issues">Report Bug</a>
     ·
@@ -158,7 +158,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [] Feature 3
     - [] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/John4064/stockAPI/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
