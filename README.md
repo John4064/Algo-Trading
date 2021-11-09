@@ -35,7 +35,7 @@
 
 <h3 align="center">Algorithmic Trading Bot</h3>
 
-  <p align="center">
+  <p align-items="center">
     An algoirthmic trading bot utilizing Alpaca Trade API to take the human factor out of trading
     <br />
     <a href="https://github.com/John4064/StockAPI/"><strong>Explore the docs »</strong></a>
@@ -91,13 +91,7 @@
 ### Built With
 
 * [Alpaca Trade API](https://alpaca.markets/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+@ []()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

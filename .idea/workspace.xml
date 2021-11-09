@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe79a031-6e6a-4126-a191-ec4050992602" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/jones.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/sponge.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="fe79a031-6e6a-4126-a191-ec4050992602" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +37,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="J:\Workspace\Python Work\Stonks\StockAPI\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Python Work\Stonks\StockAPI\Misc" />
     </key>
   </component>
   <component name="RunManager">
