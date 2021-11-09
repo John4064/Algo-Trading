@@ -1,0 +1,8 @@
+Build GUI
+Build basic graphs
+Implement a live stock feed
+Setup Proper threading for application(convert algo into Qthread)
+Backtest Algorithm
+Implement more trading idicators
+Backtest the algorithm looking at performance consider different strats and modifiers if not ideal
+Let loose and keep testing to implement more

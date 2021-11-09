@@ -17,7 +17,7 @@ ColoramaInit(autoreset=True)
 
 #Logging info
 #ogging.basicConfig(filename='debug.log', level=logging.DEBUG)
-logging.basicConfig(filename='trades.log', level=logging.INFO)
+logging.basicConfig(filename='Misc/trades.log', level=logging.INFO)
 class algo:
     def __init__(self):
         #Initialization of accounts api, account, twelvedataclients
@@ -27,16 +27,20 @@ class algo:
         #Potential Stocks to check
         self.tickers = []
         #Stocks the made it past the initial check
-        self.approved = ['rblx','AMD','wdc','ups','NFLX','ABNB','ADN','intc']
+        self.approved = ['F', 'SPCE', 'RBLX', 'TAL', 'NVDA', 'MFC', 'IOVA', 'VFC', 'BEKE', 'YALA']
         self.blacklist = []
         self.timeToClose = None
         #self.importT()
         #self.test()
-        #self.run()
+        self.run()
     def test(self):
         #RSI indicator
+        #Dead Code
+        """
+        @:param:
+        :return:
+        """
         #under30 is undervalued/oversold and  over 70 is overvalued/undersold
-        #stonk = self.approved[5]
         for stonk in self.approved:
             print(stonk)
             alp = self.api.get_barset(stonk,'1D',limit=14).df
@@ -62,14 +66,6 @@ class algo:
                     print(alp['close'][x]-alp['open'][x+1])
             else:
                 print("Empty Dataframe FUCKING ALPACA")
-            #test = ts.as_pandas()
-            #close = sum(test['close'])
-            #print(close/len(test['close']))
-        #closeP = test['close']
-        #highP= ts['high']
-        #lowP = ts['low']
-        #volP = ts['volume']
-        #30 day closing average
         return
     def run(self):
         self.importT()
@@ -178,7 +174,7 @@ class algo:
                     #order examples
                     #Send order
                     #NEEDS TO BE WHOLE NUMBER (Buggy with Fractional Shares
-                    self.submitOrder(round(targetPositionSize) - 1, x, 'buy', [])
+                    self.submitOrder(round(targetPositionSize) - 1, x, 'buy')
                     try:
                        print("Success Buy")
                     except:
@@ -207,11 +203,11 @@ class algo:
         # If we havent already bought this stock
         # Gets our cash balance and the last quote for the stock
         cashBalance = float(self.api.get_account().cash)
-        test = self.api.get_last_quote(stock)._raw
+        quoteL = self.api.get_last_quote(stock)._raw
         # Then calculates the target position based on our maxpos(.25) and current price
-        price = test['askprice']
+        price = quoteL['askprice']
         if (price == 0):
-            price = test['bidprice']
+            price = quoteL['bidprice']
         targetPositionSize = round(cashBalance / (price / maxPos), 2)
         return price,targetPositionSize
 
