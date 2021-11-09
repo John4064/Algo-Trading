@@ -222,7 +222,7 @@ Project Link: [https://github.com/John4064/stockAPI](https://github.com/John4064
 [issues-shield]: https://img.shields.io/github/issues/John4064/StockAPI.svg?style=for-the-badge
 [issues-url]: https://github.com/John4064/StockAPI/issues
 [license-shield]: https://img.shields.io/github/license/John4064/StockAPI.svg?style=for-the-badge
-[license-url]: https://github.com/John4064/StockAPI/blob/master/license.md
+[license-url]: https://github.com/John4064/StockAPI/blob/main/license.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/john-parkhurst-722a62146/
 [product-screenshot]: images/screenshot.png
