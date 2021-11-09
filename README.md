@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/John4064/StockAPI/">
-    <img src="images/logo.jpg" alt="Logo" width="80" height="80">
+    <img src="images/logo.jpg" alt="Logo" width="160" height="160">
   </a>
 
 <h3 align="center">Algorithmic Trading Bot</h3>
@@ -83,6 +83,7 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
+<p>As of right now a command line interface that manages the portfolio itself.</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -113,7 +114,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get a free API Key at [https://alpaca.markets/](https://alpaca.markets/)
 2. Clone the repo
    ```sh
    git clone https://github.com/John4064/StockAPI.git
@@ -145,10 +146,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
+- [X] Basic Functionality
+- [] User Interface
+    - [] Interactibility with the application without programming
+- [] Indicators
+    - [] RSI Indicator
+    - [] Bollinger Bands
+    - [] On-Balance Volume Indicator
 
 See the [open issues](https://github.com/John4064/stockAPI/issues) for a full list of proposed features (and known issues).
 
@@ -177,7 +181,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `license.md` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
