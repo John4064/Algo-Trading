@@ -8,11 +8,6 @@ from scrape import *
 import time
 import threading
 import twelvedata as td
-#Useless
-import matplotlib
-from PyQt5 import QtCore, QtWidgets
-from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg
-from matplotlib.figure import Figure
 ColoramaInit(autoreset=True)
 
 #Logging info
