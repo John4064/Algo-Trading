@@ -147,6 +147,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
 - [X] Basic Functionality
+- [] Documentation
+    - [] Readme
+    - [] Refactoring file directory
 - [] User Interface
     - [] Interactibility with the application without programming
 - [] Indicators
