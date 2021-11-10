@@ -2,6 +2,7 @@ import alpaca_trade_api as alpaca
 import lxml.html as lh
 import pandas as pd
 import requests
+import sys
 from bs4 import BeautifulSoup
 from datetime import datetime
 from config import *
@@ -147,7 +148,6 @@ class YahooScrape():
         # Returns a list containing a dictionary
         return u
     def sortValid(self,option):
-        print(1)
         # This function takes the list of active stocks
         # determines which match a 2:1 ratio of the current volume based on avg
         #Then Checks the price for >5

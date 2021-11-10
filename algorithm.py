@@ -1,12 +1,13 @@
 from colorama import Fore, Style, init as ColoramaInit
 import alpaca_trade_api as alpaca
-from config import *
 from datetime import  *
 import numpy as np
 import logging
 from scrape import *
 import time
 import threading
+import sys
+from config import *
 ColoramaInit(autoreset=True)
 
 #Logging info
