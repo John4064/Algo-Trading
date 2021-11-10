@@ -83,7 +83,7 @@
 ## About The Project
 
 <a href="https://app.alpaca.markets/paper/dashboard/overview">
-    <img src="images/examples/portfolio.png" alt="Logo" width="800" height="600">
+    <img src="images/examples/portfolio.png" alt="Logo" width="600" height="400">
   </a>
 <p>As of right now a command line interface that manages the portfolio itself.</p>
 
