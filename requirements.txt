@@ -1,0 +1,8 @@
+alpaca-trade-api
+requests
+bs4
+datetime
+lxml
+numpy
+pandas
+colorama
