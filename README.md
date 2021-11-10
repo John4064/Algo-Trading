@@ -213,9 +213,9 @@ Project Link: [https://github.com/John4064/stockAPI](https://github.com/John4064
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Readme Template](https://github.com/othneildrew/Best-README-Template)
+* [Investopedia](https://www.investopedia.com/)
+* [AlgoTrading101](https://algotrading101.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
