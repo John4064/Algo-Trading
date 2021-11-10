@@ -82,7 +82,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][Test123]](https://app.alpaca.markets/paper/dashboard/overview)
+##[![Product Name Screen Shot][Test123]](https://app.alpaca.markets/paper/dashboard/overview)
+<a href="https://app.alpaca.markets/paper/dashboard/overview">
+    <img src="images/examples/portfolio.png" alt="Logo" width="160" height="160">
+  </a>
 <p>As of right now a command line interface that manages the portfolio itself.</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
