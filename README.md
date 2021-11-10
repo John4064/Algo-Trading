@@ -30,12 +30,12 @@
 <br />
 <div align="center">
   <a href="https://github.com/John4064/StockAPI/">
-    <img src="images/logo.jpg" alt="Logo" width="80" height="80">
+    <img src="images/logo.jpg" alt="Logo" width="160" height="160">
   </a>
 
 <h3 align="center">Algorithmic Trading Bot</h3>
 
-  <p align="center">
+  <p align-items="center">
     An algoirthmic trading bot utilizing Alpaca Trade API to take the human factor out of trading
     <br />
     <a href="https://github.com/John4064/StockAPI/"><strong>Explore the docs »</strong></a>
@@ -82,7 +82,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<a href="https://app.alpaca.markets/dashboard/overview">
+    <img src="images/examples/portfolio.png" alt="Logo" width="600" height="400">
+  </a>
+<p>As of right now a command line interface that manages the portfolio itself. Successfully communicates with the API to execute said trades which can be viewed using the alpaca markets dashboard. </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -91,13 +94,7 @@
 ### Built With
 
 * [Alpaca Trade API](https://alpaca.markets/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Python 3](https://www.python.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -110,27 +107,36 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
+ - Python 3
+### Dependencies
+ - Alpaca Trade API
+ - Colorama
+ - Numpy
+ - Pandas
+ - Requests
+ - Lxml
+ - Bs4
+ - Datetime
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get a free API Key at [https://alpaca.markets/](https://alpaca.markets/)
 2. Clone the repo
    ```sh
    git clone https://github.com/John4064/StockAPI.git
    ```
-3. Install NPM packages
+3. Install Dependencies
    ```sh
-   npm install
+   pip install "X"
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. Enter your API Keys in `config.py`
+   ```py
+   API_KEY = 'ENTER YOUR API'
+   API_SECRET = 'ENTER YOUR API'
+   ```
+   or for test API
+   ```py
+   TESTAPI_KEY = 'ENTER YOUR API'
+   TESTAPI_SECRET = 'ENTER YOUR API'
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -151,10 +157,16 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
+- [X] Basic Functionality
+- [] Documentation
+    - [] Readme
+    - [] Refactoring file directory
+- [] User Interface
+    - [] Interactibility with the application without programming
+- [] Indicators
+    - [] RSI Indicator
+    - [] Bollinger Bands
+    - [] On-Balance Volume Indicator
 
 See the [open issues](https://github.com/John4064/stockAPI/issues) for a full list of proposed features (and known issues).
 
@@ -183,7 +195,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `license.md` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -203,9 +215,9 @@ Project Link: [https://github.com/John4064/stockAPI](https://github.com/John4064
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Readme Template](https://github.com/othneildrew/Best-README-Template)
+* [Investopedia](https://www.investopedia.com/)
+* [AlgoTrading101](https://algotrading101.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -222,7 +234,7 @@ Project Link: [https://github.com/John4064/stockAPI](https://github.com/John4064
 [issues-shield]: https://img.shields.io/github/issues/John4064/StockAPI.svg?style=for-the-badge
 [issues-url]: https://github.com/John4064/StockAPI/issues
 [license-shield]: https://img.shields.io/github/license/John4064/StockAPI.svg?style=for-the-badge
-[license-url]: https://github.com/John4064/StockAPI/blob/master/license.md
+[license-url]: https://github.com/John4064/StockAPI/blob/main/license.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/john-parkhurst-722a62146/
 [product-screenshot]: images/screenshot.png

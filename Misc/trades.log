@@ -1,0 +1,2622 @@
+INFO:root:We are going to buy: BAC at 39.17 for a total amount of 3000.68
+INFO:root:We are going to buy: BAC at 39.18 for a total amount of 2999.91
+INFO:root:We are going to buy: PPD at 46.11 for a total amount of 2549.05
+INFO:root:We are going to buy: QS at 37.5 for a total amount of 3134.31
+INFO:root:We are going to buy: NRZ at 10.61 for a total amount of 11077.89
+INFO:root:We are going to buy: GSK at 37.83 for a total amount of 3106.96
+INFO:root:We are going to buy: DELL at 0 for a total amount of 3106.96
+INFO:root:We are going to buy: BAC at 39.19 for a total amount of 2999.14
+INFO:root:We are going to buy: PPD at 46.12 for a total amount of 2548.49
+INFO:root:We are going to buy: QS at 37.5 for a total amount of 3134.31
+INFO:root:We are going to buy: NRZ at 10.61 for a total amount of 11077.89
+INFO:root:We are going to buy: GSK at 37.83 for a total amount of 3106.96
+INFO:root:We are going to buy: DELL at 99.18 for a total amount of 3106.96
+INFO:root:We are going to buy: BAC at 39.18 for a total amount of 2999.91
+INFO:root:We are going to buy: PPD at 46.11 for a total amount of 2549.05
+INFO:root:We are going to buy: QS at 37.5 for a total amount of 3134.31
+INFO:root:We are going to buy: NRZ at 10.61 for a total amount of 11006.81
+INFO:root:We are going to buy: GSK at 37.83 for a total amount of 3087.03
+INFO:root:We are going to buy: DELL at 99.18 for a total amount of 3087.03
+INFO:root:PROGRAM OFF
+INFO:root:PROGRAM OFF
+INFO:root:We are going to buy: WFC at 44.01 for a total amount of 2544.92
+INFO:root:We are going to buy: WFC at 43.99 for a total amount of 2561.39
+INFO:root:We are going to buy: WFC at 43.9 for a total amount of 2566.64
+INFO:root:We are going to buy: WFC at 43.92 for a total amount of 2565.47
+INFO:root:We are going to buy: WFC at 43.9 for a total amount of 2566.64
+INFO:root:We are going to buy: PFE at 38.91 for a total amount of 2895.8
+INFO:root:We are going to buy: GE at 13.35 for a total amount of 8440.11
+INFO:root:We are going to buy: PCG at 11.21 for a total amount of 9994.56
+INFO:root:We are going to buy: ITUB at 4.97 for a total amount of 22543.05
+INFO:root:We are going to buy: C at 72.56 for a total amount of 1544.09
+INFO:root:We are going to buy: CSCO at 52.73 for a total amount of 2078.49
+INFO:root:We are going to buy: AAL at 21.66 for a total amount of 5042.01
+INFO:root:We are going to buy: QS at 32.04 for a total amount of 3154.63
+INFO:root:We are going to buy: XOM at 56.24 for a total amount of 1797.19
+INFO:root:We are going to buy: CCL at 26.95 for a total amount of 3707.44
+INFO:root:We are going to buy: T at 29.99 for a total amount of 3314.49
+INFO:root:We are going to buy: VZ at 58.23 for a total amount of 1661.69
+INFO:root:We are going to buy: CMCSA at 54.15 for a total amount of 1786.89
+INFO:root:We are going to buy: AA at 35.48 for a total amount of 2703.73
+INFO:root:We are going to buy: BBD at 4.23 for a total amount of 22578.28
+INFO:root:We are going to buy: MRO at 10.6 for a total amount of 8841.96
+INFO:root:We are going to buy: SIRI at 6.27 for a total amount of 14948.13
+INFO:root:We are going to buy: X at 22.72 for a total amount of 4105.55
+INFO:root:We are going to buy: BA at 243.8 for a total amount of 339.6
+INFO:root:We are going to buy: ET at 7.95 for a total amount of 10414.26
+INFO:root:We are going to buy: FB at 316 for a total amount of 262.0
+INFO:root:We are going to buy: CAN at 21.77 for a total amount of 3753.07
+INFO:root:We are going to buy: ENIA at 7.81 for a total amount of 10461.51
+INFO:root:We are going to buy: BMY at 65.68 for a total amount of 1236.29
+INFO:root:We are going to buy: NCLH at 28.32 for a total amount of 2772.61
+INFO:root:We are going to buy: ABEV at 2.91 for a total amount of 26982.94
+INFO:root:We are going to buy: FSR at 12.4 for a total amount of 6121.29
+INFO:root:We are going to buy: DAL at 47 for a total amount of 1608.34
+INFO:root:We are going to buy: ORCL at 79.94 for a total amount of 945.61
+INFO:root:We are going to buy: KMI at 16.55 for a total amount of 4501.94
+INFO:root:We are going to buy: KO at 53.95 for a total amount of 1227.63
+INFO:root:We are going to buy: NLY at 8.82 for a total amount of 7354.33
+INFO:root:We are going to buy: LSCC at 55.26 for a total amount of 1173.82
+INFO:root:['CLOV', 'CLNE', 'OPEN']
+INFO:root:PROGRAM OFF
+INFO:root:['CLOV', 'CLNE', 'OPEN', 'PTON', 'HOG', 'NUAN']
+INFO:root:We are going to buy: HOG at 45.9 for a total amount of 1360.04
+INFO:root:PROGRAM OFF
+INFO:root:['CLOV', 'CLNE', 'OPEN', 'MO', 'PTON', 'PBR-A', 'HOG', 'NUAN', 'NRZ']
+INFO:root:PROGRAM OFF
+INFO:root:['CLOV', 'CLNE', 'OPEN', 'MO', 'PTON', 'PBR-A', 'HOG', 'NUAN', 'NRZ']
+INFO:root:['CLOV', 'CLNE', 'OPEN', 'MO', 'PTC', 'PTON', 'PBR-A', 'HOG', 'NUAN', 'NRZ', 'UFS']
+INFO:root:We are going to buy: CLOV at 11.45 for a total amount of 5422.93
+INFO:root:We are going to buy: MO at 46.41 for a total amount of 1337.91
+INFO:root:['FSR', 'MO', 'BTI']
+INFO:root:SOLD XOM
+INFO:root:SOLD X
+INFO:root:SOLD WFC
+INFO:root:SOLD VZ
+INFO:root:SOLD T
+INFO:root:SOLD SIRI
+INFO:root:SOLD QS
+INFO:root:SOLD PPD
+INFO:root:SOLD PFE
+INFO:root:SOLD PCG
+INFO:root:SOLD ORCL
+INFO:root:SOLD NRZ
+INFO:root:SOLD NLY
+INFO:root:SOLD NI
+INFO:root:SOLD NCLH
+INFO:root:SOLD MRO
+INFO:root:SOLD MO
+INFO:root:SOLD LSCC
+INFO:root:SOLD KO
+INFO:root:SOLD KMI
+INFO:root:SOLD ITUB
+INFO:root:SOLD HOG
+INFO:root:SOLD GSK
+INFO:root:SOLD GGB
+INFO:root:SOLD GE
+INFO:root:SOLD FSR
+INFO:root:SOLD FB
+INFO:root:SOLD ET
+INFO:root:SOLD ENIA
+INFO:root:SOLD DELL
+INFO:root:SOLD DAL
+INFO:root:SOLD CSCO
+INFO:root:SOLD CMCSA
+INFO:root:SOLD CLOV
+INFO:root:SOLD CCL
+INFO:root:SOLD CAN
+INFO:root:SOLD C
+INFO:root:SOLD BMY
+INFO:root:SOLD BBD
+INFO:root:SOLD BAC
+INFO:root:SOLD BA
+INFO:root:SOLD ABEV
+INFO:root:SOLD AAL
+INFO:root:SOLD AA
+INFO:root:We are going to buy: FSR at 12.93 for a total amount of 8828.48
+INFO:root:We are going to buy: MO at 46.51 for a total amount of 2662.48
+INFO:root:We are going to buy: BTI at 37.73 for a total amount of 3223.53
+INFO:root:['FSR', 'MO']
+INFO:root:['FSR', 'UAL', 'MO', 'SKLZ', 'OPEN', 'IBM', 'NUAN', 'NRZ', 'BTI']
+INFO:root:We are going to buy: UAL at 50.77 for a total amount of 2366.74
+INFO:root:We are going to buy: IBM at 139.5 for a total amount of 861.36
+INFO:root:We are going to buy: NRZ at 10.21 for a total amount of 11710.9
+INFO:root:['FSR', 'UAL', 'MO', 'EDU']
+INFO:root:['WBT', 'NFLX']
+INFO:root:SOLD FSR
+INFO:root:['WBT', 'SKLZ', 'NFLX', 'LAZR']
+INFO:root:['WBT', 'SKLZ', 'NFLX', 'LAZR']
+INFO:root:['WBT', 'SKLZ', 'NFLX', 'LAZR']
+INFO:root:['WBT', 'SKLZ', 'FSR', 'LAZR', 'NFLX', 'DISH', 'CHPT']
+INFO:root:We are going to buy: DISH at 39.85 for a total amount of 2952.17
+INFO:root:We are going to buy: CHPT at 20.97 for a total amount of 5610.1
+INFO:root:['WBT', 'SKLZ', 'FSR', 'HPE', 'LAZR']
+INFO:root:['SKLZ', 'T', 'NKLA', 'FSR', 'TDC', 'HPE', 'HBAN', 'CS', 'CHPT', 'DOW', 'XM', 'NUAN', 'YSG', 'WBT']
+INFO:root:We are going to buy: T at 31.29 for a total amount of 3690.31
+INFO:root:We are going to buy: HPE at 16.05 for a total amount of 7194.39
+INFO:root:We are going to buy: DOW at 60.86 for a total amount of 1897.3
+INFO:root:['OCGN', 'MVIS', 'SNAP', 'SKLZ', 'GGB', 'SKX', 'MAT', 'CS', 'KMB']
+INFO:root:We are going to buy: GGB at 6.05 for a total amount of 18802.36
+INFO:root:We are going to buy: SKX at 52.3 for a total amount of 2175.03
+INFO:root:We are going to buy: KMB at 131.95 for a total amount of 862.1
+[1;32mINFO[0m:kivy:[Logger      ] Record log in C:\Users\John\.kivy\logs\kivy_21-05-10_0.txt
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+[1;32mINFO[0m:kivy:[Kivy        ] v2.0.0
+[1;32mINFO[0m:kivy:[Kivy        ] Installed at "J:\Workspace\Python Work\blockchain\venv\lib\site-packages\kivy\__init__.py"
+[1;32mINFO[0m:kivy:[Python      ] v3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+[1;32mINFO[0m:kivy:[Python      ] Interpreter at "J:\Workspace\Python Work\blockchain\venv\Scripts\python.exe"
+[1;32mINFO[0m:kivy:[Factory     ] 186 symbols loaded
+[1;32mINFO[0m:kivy:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[1;32mINFO[0m:kivy:[Text        ] Provider: sdl2
+[1;32mINFO[0m:kivy:[Window      ] Provider: sdl2
+[1;32mINFO[0m:kivy:[GL          ] Using the "OpenGL" graphics system
+[1;32mINFO[0m:kivy:[GL          ] GLEW initialization succeeded
+[1;32mINFO[0m:kivy:[GL          ] Backend used <glew>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL version <b'4.6.0 NVIDIA 461.09'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL vendor <b'NVIDIA Corporation'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL renderer <b'GeForce GTX 1650 SUPER/PCIe/SSE2'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL parsed version: 4, 6
+[1;32mINFO[0m:kivy:[GL          ] Shading version <b'4.60 NVIDIA'>
+[1;32mINFO[0m:kivy:[GL          ] Texture max size <32768>
+[1;32mINFO[0m:kivy:[GL          ] Texture max units <32>
+[1;32mINFO[0m:kivy:[Window      ] auto add sdl2 input provider
+[1;32mINFO[0m:kivy:[Window      ] virtual keyboard not allowed, single mode, not docked
+[1;32mINFO[0m:kivy:[Base        ] Start application main loop
+[1;32mINFO[0m:kivy:[GL          ] NPOT texture support is available
+[1;32mINFO[0m:kivy:[Base        ] Leaving application in progress...
+[1;32mINFO[0m:kivy:[Logger      ] Record log in C:\Users\John\.kivy\logs\kivy_21-05-10_1.txt
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+[1;32mINFO[0m:kivy:[Kivy        ] v2.0.0
+[1;32mINFO[0m:kivy:[Kivy        ] Installed at "J:\Workspace\Python Work\blockchain\venv\lib\site-packages\kivy\__init__.py"
+[1;32mINFO[0m:kivy:[Python      ] v3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+[1;32mINFO[0m:kivy:[Python      ] Interpreter at "J:\Workspace\Python Work\blockchain\venv\Scripts\python.exe"
+[1;32mINFO[0m:kivy:[Factory     ] 186 symbols loaded
+[1;32mINFO[0m:kivy:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[1;32mINFO[0m:kivy:[Text        ] Provider: sdl2
+[1;32mINFO[0m:kivy:[Window      ] Provider: sdl2
+[1;32mINFO[0m:kivy:[GL          ] Using the "OpenGL" graphics system
+[1;32mINFO[0m:kivy:[GL          ] GLEW initialization succeeded
+[1;32mINFO[0m:kivy:[GL          ] Backend used <glew>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL version <b'4.6.0 NVIDIA 461.09'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL vendor <b'NVIDIA Corporation'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL renderer <b'GeForce GTX 1650 SUPER/PCIe/SSE2'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL parsed version: 4, 6
+[1;32mINFO[0m:kivy:[GL          ] Shading version <b'4.60 NVIDIA'>
+[1;32mINFO[0m:kivy:[GL          ] Texture max size <32768>
+[1;32mINFO[0m:kivy:[GL          ] Texture max units <32>
+[1;32mINFO[0m:kivy:[Window      ] auto add sdl2 input provider
+[1;32mINFO[0m:kivy:[Window      ] virtual keyboard not allowed, single mode, not docked
+[1;32mINFO[0m:kivy:[Base        ] Start application main loop
+[1;32mINFO[0m:kivy:[GL          ] NPOT texture support is available
+[1;32mINFO[0m:kivy:[Base        ] Leaving application in progress...
+[1;32mINFO[0m:kivy:[Logger      ] Record log in C:\Users\John\.kivy\logs\kivy_21-05-10_2.txt
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+[1;32mINFO[0m:kivy:[Kivy        ] v2.0.0
+[1;32mINFO[0m:kivy:[Kivy        ] Installed at "J:\Workspace\Python Work\blockchain\venv\lib\site-packages\kivy\__init__.py"
+[1;32mINFO[0m:kivy:[Python      ] v3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+[1;32mINFO[0m:kivy:[Python      ] Interpreter at "J:\Workspace\Python Work\blockchain\venv\Scripts\python.exe"
+[1;32mINFO[0m:kivy:[Factory     ] 186 symbols loaded
+[1;32mINFO[0m:kivy:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[1;32mINFO[0m:kivy:[Text        ] Provider: sdl2
+[1;32mINFO[0m:kivy:[Window      ] Provider: sdl2
+[1;32mINFO[0m:kivy:[GL          ] Using the "OpenGL" graphics system
+[1;32mINFO[0m:kivy:[GL          ] GLEW initialization succeeded
+[1;32mINFO[0m:kivy:[GL          ] Backend used <glew>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL version <b'4.6.0 NVIDIA 461.09'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL vendor <b'NVIDIA Corporation'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL renderer <b'GeForce GTX 1650 SUPER/PCIe/SSE2'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL parsed version: 4, 6
+[1;32mINFO[0m:kivy:[GL          ] Shading version <b'4.60 NVIDIA'>
+[1;32mINFO[0m:kivy:[GL          ] Texture max size <32768>
+[1;32mINFO[0m:kivy:[GL          ] Texture max units <32>
+[1;32mINFO[0m:kivy:[Window      ] auto add sdl2 input provider
+[1;32mINFO[0m:kivy:[Window      ] virtual keyboard not allowed, single mode, not docked
+[1;32mINFO[0m:kivy:[Base        ] Start application main loop
+[1;32mINFO[0m:kivy:[GL          ] NPOT texture support is available
+[1;32mINFO[0m:kivy:[Base        ] Leaving application in progress...
+[1;32mINFO[0m:kivy:[Logger      ] Record log in C:\Users\John\.kivy\logs\kivy_21-05-10_3.txt
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+[1;32mINFO[0m:kivy:[Kivy        ] v2.0.0
+[1;32mINFO[0m:kivy:[Kivy        ] Installed at "J:\Workspace\Python Work\blockchain\venv\lib\site-packages\kivy\__init__.py"
+[1;32mINFO[0m:kivy:[Python      ] v3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+[1;32mINFO[0m:kivy:[Python      ] Interpreter at "J:\Workspace\Python Work\blockchain\venv\Scripts\python.exe"
+[1;32mINFO[0m:kivy:[Factory     ] 186 symbols loaded
+[1;32mINFO[0m:kivy:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+WARNING:kivy:stderr: Traceback (most recent call last):
+WARNING:kivy:stderr:   File "J:/Workspace/Python Work/Stonks/StockAPI/main.py", line 40, in <module>
+WARNING:kivy:stderr:     TestApp().run()
+WARNING:kivy:stderr:   File "J:\Workspace\Python Work\blockchain\venv\lib\site-packages\kivy\app.py", line 949, in run
+WARNING:kivy:stderr:     self._run_prepare()
+WARNING:kivy:stderr:   File "J:\Workspace\Python Work\blockchain\venv\lib\site-packages\kivy\app.py", line 919, in _run_prepare
+WARNING:kivy:stderr:     root = self.build()
+WARNING:kivy:stderr:   File "J:/Workspace/Python Work/Stonks/StockAPI/main.py", line 34, in build
+WARNING:kivy:stderr:     return Label(text='Hello world')
+WARNING:kivy:stderr: NameError: name 'Label' is not defined
+[1;32mINFO[0m:kivy:[Logger      ] Record log in C:\Users\John\.kivy\logs\kivy_21-05-10_4.txt
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+[1;32mINFO[0m:kivy:[Kivy        ] v2.0.0
+[1;32mINFO[0m:kivy:[Kivy        ] Installed at "J:\Workspace\Python Work\blockchain\venv\lib\site-packages\kivy\__init__.py"
+[1;32mINFO[0m:kivy:[Python      ] v3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+[1;32mINFO[0m:kivy:[Python      ] Interpreter at "J:\Workspace\Python Work\blockchain\venv\Scripts\python.exe"
+[1;32mINFO[0m:kivy:[Factory     ] 186 symbols loaded
+[1;32mINFO[0m:kivy:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[1;32mINFO[0m:kivy:[Text        ] Provider: sdl2
+[1;32mINFO[0m:kivy:[Window      ] Provider: sdl2
+[1;32mINFO[0m:kivy:[GL          ] Using the "OpenGL" graphics system
+[1;32mINFO[0m:kivy:[GL          ] GLEW initialization succeeded
+[1;32mINFO[0m:kivy:[GL          ] Backend used <glew>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL version <b'4.6.0 NVIDIA 461.09'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL vendor <b'NVIDIA Corporation'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL renderer <b'GeForce GTX 1650 SUPER/PCIe/SSE2'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL parsed version: 4, 6
+[1;32mINFO[0m:kivy:[GL          ] Shading version <b'4.60 NVIDIA'>
+[1;32mINFO[0m:kivy:[GL          ] Texture max size <32768>
+[1;32mINFO[0m:kivy:[GL          ] Texture max units <32>
+[1;32mINFO[0m:kivy:[Window      ] auto add sdl2 input provider
+[1;32mINFO[0m:kivy:[Window      ] virtual keyboard not allowed, single mode, not docked
+[1;32mINFO[0m:kivy:[Base        ] Start application main loop
+[1;32mINFO[0m:kivy:[GL          ] NPOT texture support is available
+[1;32mINFO[0m:kivy:[Base        ] Leaving application in progress...
+[1;32mINFO[0m:kivy:[Logger      ] Record log in C:\Users\John\.kivy\logs\kivy_21-05-10_5.txt
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+[1;32mINFO[0m:kivy:[Kivy        ] v2.0.0
+[1;32mINFO[0m:kivy:[Kivy        ] Installed at "J:\Workspace\Python Work\blockchain\venv\lib\site-packages\kivy\__init__.py"
+[1;32mINFO[0m:kivy:[Python      ] v3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+[1;32mINFO[0m:kivy:[Python      ] Interpreter at "J:\Workspace\Python Work\blockchain\venv\Scripts\python.exe"
+[1;32mINFO[0m:kivy:[Factory     ] 186 symbols loaded
+[1;32mINFO[0m:kivy:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[1;32mINFO[0m:kivy:[Text        ] Provider: sdl2
+[1;32mINFO[0m:kivy:[Window      ] Provider: sdl2
+[1;32mINFO[0m:kivy:[GL          ] Using the "OpenGL" graphics system
+[1;32mINFO[0m:kivy:[GL          ] GLEW initialization succeeded
+[1;32mINFO[0m:kivy:[GL          ] Backend used <glew>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL version <b'4.6.0 NVIDIA 461.09'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL vendor <b'NVIDIA Corporation'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL renderer <b'GeForce GTX 1650 SUPER/PCIe/SSE2'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL parsed version: 4, 6
+[1;32mINFO[0m:kivy:[GL          ] Shading version <b'4.60 NVIDIA'>
+[1;32mINFO[0m:kivy:[GL          ] Texture max size <32768>
+[1;32mINFO[0m:kivy:[GL          ] Texture max units <32>
+[1;32mINFO[0m:kivy:[Window      ] auto add sdl2 input provider
+[1;32mINFO[0m:kivy:[Window      ] virtual keyboard not allowed, single mode, not docked
+[1;32mINFO[0m:kivy:[Base        ] Start application main loop
+[1;32mINFO[0m:kivy:[GL          ] NPOT texture support is available
+[1;32mINFO[0m:kivy:[Base        ] Leaving application in progress...
+[1;32mINFO[0m:kivy:[Logger      ] Record log in C:\Users\John\.kivy\logs\kivy_21-05-10_6.txt
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+[1;32mINFO[0m:kivy:[Kivy        ] v2.0.0
+[1;32mINFO[0m:kivy:[Kivy        ] Installed at "J:\Workspace\Python Work\blockchain\venv\lib\site-packages\kivy\__init__.py"
+[1;32mINFO[0m:kivy:[Python      ] v3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+[1;32mINFO[0m:kivy:[Python      ] Interpreter at "J:\Workspace\Python Work\blockchain\venv\Scripts\python.exe"
+[1;32mINFO[0m:kivy:[Factory     ] 186 symbols loaded
+[1;32mINFO[0m:kivy:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[1;32mINFO[0m:kivy:[Text        ] Provider: sdl2
+[1;32mINFO[0m:kivy:[Window      ] Provider: sdl2
+[1;32mINFO[0m:kivy:[GL          ] Using the "OpenGL" graphics system
+[1;32mINFO[0m:kivy:[GL          ] GLEW initialization succeeded
+[1;32mINFO[0m:kivy:[GL          ] Backend used <glew>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL version <b'4.6.0 NVIDIA 461.09'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL vendor <b'NVIDIA Corporation'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL renderer <b'GeForce GTX 1650 SUPER/PCIe/SSE2'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL parsed version: 4, 6
+[1;32mINFO[0m:kivy:[GL          ] Shading version <b'4.60 NVIDIA'>
+[1;32mINFO[0m:kivy:[GL          ] Texture max size <32768>
+[1;32mINFO[0m:kivy:[GL          ] Texture max units <32>
+[1;32mINFO[0m:kivy:[Window      ] auto add sdl2 input provider
+[1;32mINFO[0m:kivy:[Window      ] virtual keyboard not allowed, single mode, not docked
+[1;32mINFO[0m:kivy:[Base        ] Start application main loop
+[1;32mINFO[0m:kivy:[GL          ] NPOT texture support is available
+[1;32mINFO[0m:kivy:[Base        ] Leaving application in progress...
+[1;32mINFO[0m:kivy:[Logger      ] Record log in C:\Users\John\.kivy\logs\kivy_21-05-10_7.txt
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+[1;32mINFO[0m:kivy:[Kivy        ] v2.0.0
+[1;32mINFO[0m:kivy:[Kivy        ] Installed at "J:\Workspace\Python Work\blockchain\venv\lib\site-packages\kivy\__init__.py"
+[1;32mINFO[0m:kivy:[Python      ] v3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+[1;32mINFO[0m:kivy:[Python      ] Interpreter at "J:\Workspace\Python Work\blockchain\venv\Scripts\python.exe"
+[1;32mINFO[0m:kivy:[Factory     ] 186 symbols loaded
+[1;32mINFO[0m:kivy:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[1;32mINFO[0m:kivy:[Text        ] Provider: sdl2
+[1;32mINFO[0m:kivy:[Window      ] Provider: sdl2
+[1;32mINFO[0m:kivy:[GL          ] Using the "OpenGL" graphics system
+[1;32mINFO[0m:kivy:[GL          ] GLEW initialization succeeded
+[1;32mINFO[0m:kivy:[GL          ] Backend used <glew>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL version <b'4.6.0 NVIDIA 461.09'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL vendor <b'NVIDIA Corporation'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL renderer <b'GeForce GTX 1650 SUPER/PCIe/SSE2'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL parsed version: 4, 6
+[1;32mINFO[0m:kivy:[GL          ] Shading version <b'4.60 NVIDIA'>
+[1;32mINFO[0m:kivy:[GL          ] Texture max size <32768>
+[1;32mINFO[0m:kivy:[GL          ] Texture max units <32>
+[1;32mINFO[0m:kivy:[Window      ] auto add sdl2 input provider
+[1;32mINFO[0m:kivy:[Window      ] virtual keyboard not allowed, single mode, not docked
+[1;32mINFO[0m:kivy:[Base        ] Start application main loop
+[1;32mINFO[0m:kivy:[GL          ] NPOT texture support is available
+[1;32mINFO[0m:kivy:[Base        ] Leaving application in progress...
+[1;32mINFO[0m:kivy:[Logger      ] Record log in C:\Users\John\.kivy\logs\kivy_21-05-10_8.txt
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+[1;32mINFO[0m:kivy:[deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+[1;32mINFO[0m:kivy:[Kivy        ] v2.0.0
+[1;32mINFO[0m:kivy:[Kivy        ] Installed at "J:\Workspace\Python Work\blockchain\venv\lib\site-packages\kivy\__init__.py"
+[1;32mINFO[0m:kivy:[Python      ] v3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]
+[1;32mINFO[0m:kivy:[Python      ] Interpreter at "J:\Workspace\Python Work\blockchain\venv\Scripts\python.exe"
+[1;32mINFO[0m:kivy:[Factory     ] 186 symbols loaded
+[1;32mINFO[0m:kivy:[Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[1;32mINFO[0m:kivy:[Text        ] Provider: sdl2
+[1;32mINFO[0m:kivy:[Window      ] Provider: sdl2
+[1;32mINFO[0m:kivy:[GL          ] Using the "OpenGL" graphics system
+[1;32mINFO[0m:kivy:[GL          ] GLEW initialization succeeded
+[1;32mINFO[0m:kivy:[GL          ] Backend used <glew>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL version <b'4.6.0 NVIDIA 461.09'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL vendor <b'NVIDIA Corporation'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL renderer <b'GeForce GTX 1650 SUPER/PCIe/SSE2'>
+[1;32mINFO[0m:kivy:[GL          ] OpenGL parsed version: 4, 6
+[1;32mINFO[0m:kivy:[GL          ] Shading version <b'4.60 NVIDIA'>
+[1;32mINFO[0m:kivy:[GL          ] Texture max size <32768>
+[1;32mINFO[0m:kivy:[GL          ] Texture max units <32>
+[1;32mINFO[0m:kivy:[Window      ] auto add sdl2 input provider
+[1;32mINFO[0m:kivy:[Window      ] virtual keyboard not allowed, single mode, not docked
+INFO:root:['DKNG', 'PTON', 'VTRS']
+INFO:root:We are going to buy: PTON at 86.46 for a total amount of 1349.89
+INFO:root:We are going to buy: VTRS at 15.23 for a total amount of 7663.27
+INFO:root:['DKNG', 'PTON']
+INFO:root:['DKNG', 'PTON']
+INFO:root:['DDD', 'SPCE', 'JMIA', 'PSFE', 'HBI', 'UFS']
+INFO:root:SOLD SKX
+INFO:root:['DDD', 'SPCE', 'JMIA', 'PSFE', 'HBI', 'UFS']
+INFO:root:SOLD SKX
+INFO:root:['DDD']
+INFO:root:['DDD']
+INFO:root:['PLTR', 'DDD', 'SPCE', 'RBLX', 'JMIA', 'PSFE', 'HBI', 'UFS']
+INFO:root:We are going to buy: RBLX at 76 for a total amount of 0.33
+INFO:root:We are going to buy: PSFE at 11.97 for a total amount of 2.09
+INFO:root:We are going to buy: PSFE at 11.97 for a total amount of 1.57
+INFO:root:['EDU', 'DIS', 'WISH', 'FUBO', 'PTON', 'NLOK', 'OPEN']
+INFO:root:SOLD RBLX
+INFO:root:SOLD PSFE
+INFO:root:We are going to buy: PTON at 96.7 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 25.99 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 96.7 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 25.99 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 96.7 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 96.7 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 25.98 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 96.7 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 96.2 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 96.2 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 96.2 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 96.2 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 96.2 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 95.87 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.04 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 95.91 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.03 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 95.89 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.03 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 96.2 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.04 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 95.88 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.05 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 95.93 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.01 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 96.2 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.02 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 96.2 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.02 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 96.2 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.03 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 96.7 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.04 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 96.7 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.06 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 95.99 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.1 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 95.91 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.1 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 95.79 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.11 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 96.7 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.11 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 96.7 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.08 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 95.77 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.1 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 95.85 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.05 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 95.86 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.03 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 96.7 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.06 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 95.8 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.02 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 95.74 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.04 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 96.7 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.04 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 95.92 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.04 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 95.83 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.04 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 96.7 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.04 for a total amount of 0.7
+INFO:root:SOLD RBLX
+INFO:root:We are going to buy: PTON at 96.7 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.02 for a total amount of 0.7
+INFO:root:['DISCA', 'ABNB', 'DISCK']
+INFO:root:['T', 'DISCA', 'ABNB', 'DISCK', 'HL', 'PTON', 'WISH', 'STX']
+INFO:root:We are going to buy: T at 31.52 for a total amount of 0.58
+INFO:root:We are going to buy: PTON at 96 for a total amount of 0.19
+INFO:root:We are going to buy: STX at 103.81 for a total amount of 0.18
+INFO:root:We are going to buy: T at 31.54 for a total amount of 0.58
+INFO:root:We are going to buy: PTON at 92 for a total amount of 0.2
+INFO:root:We are going to buy: STX at 102.83 for a total amount of 0.18
+INFO:root:We are going to buy: T at 31.55 for a total amount of 0.29
+INFO:root:We are going to buy: T at 31.49 for a total amount of 0.29
+INFO:root:['T', 'DISCA', 'ABNB', 'CLOV', 'DISCK']
+INFO:root:We are going to buy: CLOV at 6.82 for a total amount of 0.68
+INFO:root:We are going to buy: CLOV at 6.82 for a total amount of 0.68
+INFO:root:We are going to buy: CLOV at 6.82 for a total amount of 0.68
+INFO:root:We are going to buy: CLOV at 6.83 for a total amount of 0.68
+INFO:root:We are going to buy: CLOV at 6.85 for a total amount of 0.68
+INFO:root:['T', 'DISCA', 'ABNB', 'DISCK']
+INFO:root:['T', 'DISCA', 'ABNB', 'DISCK', 'HL', 'PTON', 'WDC', 'WISH', 'NLOK', 'HMY', 'NEM']
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 8.86 for a total amount of 0.33
+INFO:root:We are going to buy: NLOK at 26.43 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 8.82 for a total amount of 0.33
+INFO:root:We are going to buy: NLOK at 26.47 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.56 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 8.82 for a total amount of 0.33
+INFO:root:We are going to buy: NLOK at 26.48 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.3 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.47 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.51 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.54 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.44 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.54 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.41 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.53 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.42 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.54 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.38 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.53 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.73 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.38 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.51 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 8.95 for a total amount of 0.33
+INFO:root:We are going to buy: NLOK at 26.34 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.51 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 8.94 for a total amount of 0.33
+INFO:root:We are going to buy: NLOK at 26.36 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.54 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.63 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 8.92 for a total amount of 0.33
+INFO:root:We are going to buy: NLOK at 26.38 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.61 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.42 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.53 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 8.95 for a total amount of 0.33
+INFO:root:We are going to buy: NLOK at 26.4 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.51 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.39 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.51 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.37 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.51 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.23 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.05 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.44 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.49 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.31 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.37 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.49 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.2 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.1 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.36 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.49 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.1 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.34 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.48 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.34 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.49 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.33 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.5 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.28 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.32 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.5 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.28 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.52 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.33 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.52 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.32 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.52 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.31 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.5 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.35 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.33 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.5 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.43 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.34 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.5 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.47 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.36 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.5 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.51 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.38 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.49 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.49 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.43 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.51 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.44 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.48 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.55 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.41 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.5 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.63 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.43 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.5 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.68 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.42 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.5 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.65 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.48 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.52 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.64 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.48 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.52 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.46 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.51 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.51 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.49 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.51 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.37 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.49 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.51 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.45 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.49 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.51 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.54 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.51 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.51 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.43 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.51 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.54 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.44 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.5 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.46 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.5 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.49 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.41 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.48 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.5 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.41 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.48 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.5 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.39 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.5 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.51 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.41 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.47 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.51 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.44 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.49 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.53 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.69 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.51 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.53 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.7 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.53 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.53 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.61 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.53 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.53 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.57 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.53 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.46 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.59 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.53 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.45 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.52 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.52 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.46 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.5 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.51 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.51 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.48 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.52 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.47 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.51 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.5 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.49 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.52 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.52 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.53 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.61 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.49 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.52 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.29 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.47 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.54 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.43 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.54 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.43 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.77 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.42 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.53 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.67 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.43 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.53 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.44 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.54 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.45 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.54 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.79 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 17.75 for a total amount of 0.16
+INFO:root:We are going to buy: NLOK at 26.42 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.84 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 15 for a total amount of 0.19
+INFO:root:We are going to buy: NLOK at 26.41 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.54 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.77 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.4 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.54 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.76 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.34 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.42 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.54 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.67 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.44 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.54 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.45 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.76 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.44 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.54 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.65 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.34 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.41 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.53 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.42 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.61 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.43 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.54 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.52 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.44 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.45 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.54 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.48 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.46 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.52 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.46 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.47 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.62 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.45 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.54 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.4 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.54 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.38 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.54 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.38 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.39 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.61 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.43 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.54 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.56 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.38 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.59 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.36 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.61 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.36 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.53 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.38 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.54 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.29 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.37 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.29 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.36 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.54 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.59 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.36 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.39 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.27 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.39 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.61 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.43 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.68 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.27 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.42 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.56 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.26 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.42 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.56 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.25 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.43 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.89 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.26 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.44 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.97 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.44 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.06 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.23 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.42 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.05 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.41 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.56 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.04 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.4 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.56 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.36 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.37 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.54 for a total amount of 0.53
+INFO:root:We are going to buy: NEM at 73.85 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.4 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.97 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.21 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.6 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.9 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.41 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.84 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.77 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.66 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 11.52 for a total amount of 0.25
+INFO:root:We are going to buy: NLOK at 26.41 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.41 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.56 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.41 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.41 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.56 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.68 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.41 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.56 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.41 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.39 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.41 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.72 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.41 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.73 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.17 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.42 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.45 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.47 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.56 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.7 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.47 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.56 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.49 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.56 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.49 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.56 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.48 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.55 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.55 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.5 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.56 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.51 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.56 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.51 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.56 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.71 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.52 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.56 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.52 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.56 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.74 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.56 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.56 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.73 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.56 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.22 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.6 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.57 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.6 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.59 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.57 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.6 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.59 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.58 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.59 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.61 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.63 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.63 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.59 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.62 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.56 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.62 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.53 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.51 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.64 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.54 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.67 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.66 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.65 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.67 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.67 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.24 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.69 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.74 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.69 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.76 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.77 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.71 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.27 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.72 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.77 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.7 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.78 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.72 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.73 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.66 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.74 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.26 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.75 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.76 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.76 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.74 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.26 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.75 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.76 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.25 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.75 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.76 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.24 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.77 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.81 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.78 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.79 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.78 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.74 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.72 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.82 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.7 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.81 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.67 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.66 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.79 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.66 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.65 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.65 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.62 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.84 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.62 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.85 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.28 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.62 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.85 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.59 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.85 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.59 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.58 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.58 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.59 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.23 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.59 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.23 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.54 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.05 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.23 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.52 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.04 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.23 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.53 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.99 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.22 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.53 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.22 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.52 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 73.96 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.22 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.53 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.21 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.52 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.02 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.21 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.53 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.02 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.54 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.17 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.08 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.54 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.09 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.16 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.54 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.56 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.59 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.52 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.11 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.59 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.58 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.2 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.57 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.25 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.21 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.63 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.24 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.63 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.24 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.64 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.22 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.64 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.64 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.21 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.64 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.64 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.64 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.21 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.61 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.26 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.61 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.25 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.28 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.25 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.18 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.1 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.61 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.1 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.61 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.1 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.61 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.07 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.61 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.06 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.62 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.15 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.62 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.2 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.61 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.58 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.23 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.59 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.6 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.17 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.59 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.16 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.57 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.18 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.58 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.21 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.59 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.21 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.59 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.29 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.56 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.2 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.56 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.2 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.57 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.29 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.21 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.54 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.25 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.19 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.22 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.54 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.16 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.22 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.15 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.22 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.56 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.15 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.23 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.56 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.08 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.23 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.23 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.54 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.23 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.54 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.09 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.22 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.57 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.54 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.25 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.54 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.17 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.25 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.54 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.19 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.25 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.16 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.25 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.56 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.19 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.26 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.2 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.57 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.24 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.57 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.28 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.2 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.25 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.56 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.33 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.57 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.21 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.56 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.26 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.56 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.2 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.57 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.2 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.19 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.54 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.19 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.54 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.41 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.13 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.54 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.41 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.13 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.54 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.14 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.51 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.11 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.5 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.61 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.31 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.02 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.5 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.26 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.03 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.5 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.01 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.51 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.61 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.25 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.03 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.54 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.61 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.03 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.03 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.56 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.03 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.57 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.3 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.57 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.61 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.03 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.27 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.03 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.04 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.26 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 8.99 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.57 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.26 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 8.98 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.56 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 12 for a total amount of 0.24
+INFO:root:We are going to buy: NLOK at 26.54 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.31 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.01 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.55 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.35 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.01 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.52 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.34 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.04 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.52 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.41 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.07 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.52 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.38 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.04 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.54 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.36 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.65 for a total amount of 0.3
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.44 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.65 for a total amount of 0.3
+INFO:root:We are going to buy: NLOK at 26.56 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.49 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.04 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.56 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.46 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.05 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.56 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.45 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.08 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.57 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.65 for a total amount of 0.3
+INFO:root:We are going to buy: NLOK at 26.56 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.52 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.11 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.57 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.53 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.65 for a total amount of 0.3
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.65 for a total amount of 0.3
+INFO:root:We are going to buy: NLOK at 26.58 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.58 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.14 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.57 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.65 for a total amount of 0.3
+INFO:root:We are going to buy: NLOK at 26.58 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.62 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.65 for a total amount of 0.3
+INFO:root:We are going to buy: NLOK at 26.61 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.61 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.18 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.62 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.65 for a total amount of 0.3
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.19 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.63 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.19 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.65 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.2 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.72 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.2 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.66 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.7 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.2 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.66 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.7 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.2 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.2 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.69 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.74 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.65 for a total amount of 0.3
+INFO:root:We are going to buy: NLOK at 26.7 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.7 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.21 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.7 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.73 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.21 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.71 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.77 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.23 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.72 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.71 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.24 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.7 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.23 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.72 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.65 for a total amount of 0.3
+INFO:root:We are going to buy: NLOK at 26.69 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.77 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.25 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 27 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.77 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.27 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.7 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.77 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.27 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.67 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.73 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.26 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.65 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.26 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.65 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.26 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.65 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.63 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.28 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.65 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.61 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.28 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.62 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.57 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.28 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.61 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.58 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.62 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.27 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.61 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.27 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.62 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.57 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.27 for a total amount of 0.31
+INFO:root:We are going to buy: NLOK at 26.61 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.53 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.2 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.62 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.19 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.61 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.55 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.19 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.62 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.53 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.16 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.6 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.6 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 75 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.16 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.6 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.59 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.15 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.6 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.57 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.19 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.6 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.58 for a total amount of 0.04
+INFO:root:SOLD T
+INFO:root:We are going to buy: WISH at 9.19 for a total amount of 0.32
+INFO:root:We are going to buy: NLOK at 26.6 for a total amount of 0.11
+INFO:root:We are going to buy: HMY at 5.59 for a total amount of 0.52
+INFO:root:We are going to buy: NEM at 74.54 for a total amount of 0.04
+INFO:root:['T', 'EDU', 'M', 'ABNB', 'PTON', 'CVS', 'VOD', 'DASH']
+INFO:root:[]
+INFO:root:SOLD T
+INFO:root:[]
+INFO:root:['IOVA', 'TGT']
+INFO:root:We are going to buy: IOVA at 17.2 for a total amount of 0.68
+INFO:root:We are going to buy: TGT at 219 for a total amount of 0.05
+INFO:root:We are going to buy: IOVA at 16.82 for a total amount of 0.7
+INFO:root:We are going to buy: TGT at 219 for a total amount of 0.05
+INFO:root:['IOVA']
+INFO:root:We are going to buy: IOVA at 17.2 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.2 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.2 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 16.91 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 17.2 for a total amount of 0.68
+INFO:root:['IOVA']
+INFO:root:We are going to buy: IOVA at 17.2 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.2 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 16.62 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.71 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.79 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.79 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.65 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 18.29 for a total amount of 0.64
+INFO:root:We are going to buy: IOVA at 17.19 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.19 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.27 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.29 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.4 for a total amount of 0.67
+INFO:root:We are going to buy: IOVA at 17.35 for a total amount of 0.67
+INFO:root:We are going to buy: IOVA at 17.19 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.35 for a total amount of 0.67
+INFO:root:We are going to buy: IOVA at 18.29 for a total amount of 0.64
+INFO:root:We are going to buy: IOVA at 17.18 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.28 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 18.29 for a total amount of 0.64
+INFO:root:We are going to buy: IOVA at 18.29 for a total amount of 0.64
+INFO:root:We are going to buy: IOVA at 17.11 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 18.29 for a total amount of 0.64
+INFO:root:We are going to buy: IOVA at 18.29 for a total amount of 0.64
+INFO:root:We are going to buy: IOVA at 18.29 for a total amount of 0.64
+INFO:root:We are going to buy: IOVA at 17.79 for a total amount of 0.66
+INFO:root:We are going to buy: IOVA at 16.98 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 17.79 for a total amount of 0.66
+INFO:root:We are going to buy: IOVA at 18.29 for a total amount of 0.64
+INFO:root:We are going to buy: IOVA at 16.88 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 18.29 for a total amount of 0.64
+INFO:root:We are going to buy: IOVA at 18.29 for a total amount of 0.64
+INFO:root:We are going to buy: IOVA at 17.5 for a total amount of 0.67
+INFO:root:We are going to buy: IOVA at 16.78 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.91 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.93 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 17.5 for a total amount of 0.67
+INFO:root:We are going to buy: IOVA at 16.98 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 17.14 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 16.92 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.92 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.91 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.92 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 17.14 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.14 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.14 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 16.73 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 17.14 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.14 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.14 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 16.9 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.87 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.9 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 17.14 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.14 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.14 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.14 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.14 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 16.78 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 17 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.86 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 17.05 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 17.1 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 16.88 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.77 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 17 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 17 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 17 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 17 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.74 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.9 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.72 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.9 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.9 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.9 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.9 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.88 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.89 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.89 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.85 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.85 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.95 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.84 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.95 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.95 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.95 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.95 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.81 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.81 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.77 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.85 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.85 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.85 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.84 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.83 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.8 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 17.14 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.14 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.14 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.14 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.14 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.14 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.14 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.39 for a total amount of 0.67
+INFO:root:We are going to buy: IOVA at 17.08 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 17.08 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 17.08 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 17.08 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 17.08 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 17.08 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 17.08 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.95 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 17 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 17.03 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 17.03 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.94 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.84 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 18 for a total amount of 0.65
+INFO:root:We are going to buy: IOVA at 18 for a total amount of 0.65
+INFO:root:We are going to buy: IOVA at 18 for a total amount of 0.65
+INFO:root:We are going to buy: IOVA at 16.78 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 18 for a total amount of 0.65
+INFO:root:We are going to buy: IOVA at 16.81 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.71 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 18 for a total amount of 0.65
+INFO:root:We are going to buy: IOVA at 18 for a total amount of 0.65
+INFO:root:We are going to buy: IOVA at 16.72 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 18 for a total amount of 0.65
+INFO:root:We are going to buy: IOVA at 18 for a total amount of 0.65
+INFO:root:We are going to buy: IOVA at 18 for a total amount of 0.65
+INFO:root:We are going to buy: IOVA at 16.69 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.7 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 17.2 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.2 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.2 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.2 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 17.2 for a total amount of 0.68
+INFO:root:We are going to buy: IOVA at 16.75 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.68 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.75 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.75 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.9 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.9 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.75 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.75 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.78 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.77 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.75 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.79 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.8 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 17 for a total amount of 0.69
+INFO:root:We are going to buy: IOVA at 16.72 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.65 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.74 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.22 for a total amount of 0.72
+INFO:root:We are going to buy: IOVA at 16.74 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.24 for a total amount of 0.72
+INFO:root:We are going to buy: IOVA at 16.74 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.74 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.31 for a total amount of 0.72
+INFO:root:We are going to buy: IOVA at 16.74 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.74 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 15.97 for a total amount of 0.73
+INFO:root:We are going to buy: IOVA at 16 for a total amount of 0.73
+INFO:root:We are going to buy: IOVA at 16.74 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.74 for a total amount of 0.7
+INFO:root:We are going to buy: IOVA at 16.24 for a total amount of 0.72
+INFO:root:We are going to buy: IOVA at 16.24 for a total amount of 0.72
+INFO:root:We are going to buy: IOVA at 16.24 for a total amount of 0.72
+INFO:root:We are going to buy: IOVA at 16.24 for a total amount of 0.72
+INFO:root:We are going to buy: IOVA at 16.24 for a total amount of 0.72
+INFO:root:We are going to buy: IOVA at 16.24 for a total amount of 0.72
+INFO:root:We are going to buy: IOVA at 16.03 for a total amount of 0.73
+INFO:root:We are going to buy: IOVA at 16.01 for a total amount of 0.73
+INFO:root:We are going to buy: IOVA at 16.05 for a total amount of 0.73
+INFO:root:We are going to buy: IOVA at 16.24 for a total amount of 0.72
+INFO:root:We are going to buy: IOVA at 16.01 for a total amount of 0.73
+INFO:root:We are going to buy: IOVA at 16.24 for a total amount of 0.72
+INFO:root:We are going to buy: IOVA at 16.12 for a total amount of 0.73
+INFO:root:We are going to buy: IOVA at 16.15 for a total amount of 0.72
+INFO:root:We are going to buy: IOVA at 16.4 for a total amount of 0.71
+INFO:root:We are going to buy: IOVA at 16.29 for a total amount of 0.72
+INFO:root:We are going to buy: IOVA at 16.4 for a total amount of 0.71
+INFO:root:We are going to buy: IOVA at 18 for a total amount of 0.65
+INFO:root:We are going to buy: IOVA at 18 for a total amount of 0.65
+INFO:root:We are going to buy: IOVA at 18 for a total amount of 0.65
+INFO:root:We are going to buy: IOVA at 16.39 for a total amount of 0.71
+INFO:root:['T', 'IOVA', 'CVS', 'TJX', 'AA', 'ABNB', 'EXC', 'TGT', 'TECK', 'WY']
+INFO:root:SOLD STX
+INFO:root:We are going to buy: T at 29.59 for a total amount of 0.4
+INFO:root:We are going to buy: IOVA at 18.94 for a total amount of 0.62
+INFO:root:We are going to buy: CVS at 89.7 for a total amount of 0.13
+INFO:root:We are going to buy: TJX at 68 for a total amount of 0.17
+INFO:root:We are going to buy: EXC at 48.02 for a total amount of 0.24
+INFO:root:We are going to buy: TGT at 221.1 for a total amount of 0.05
+INFO:root:We are going to buy: WY at 37.09 for a total amount of 0.32
+INFO:root:SOLD STX
+INFO:root:['SPCE', 'IOVA', 'KSS', 'BBVA', 'BEKE', 'CS', 'GPK']
+INFO:root:We are going to buy: IOVA at 19.31 for a total amount of 1294.67
+INFO:root:We are going to buy: GPK at 17.93 for a total amount of 1394.31
+INFO:root:We are going to buy: IOVA at 19.31 for a total amount of 1294.67
+INFO:root:We are going to buy: GPK at 17.91 for a total amount of 1395.87
+INFO:root:We are going to buy: IOVA at 19 for a total amount of 1315.79
+INFO:root:We are going to buy: GPK at 17.91 for a total amount of 1395.87
+INFO:root:We are going to buy: IOVA at 19 for a total amount of 1315.79
+INFO:root:We are going to buy: GPK at 17.91 for a total amount of 1395.87
+INFO:root:We are going to buy: IOVA at 18.89 for a total amount of 1323.45
+INFO:root:We are going to buy: GPK at 17.91 for a total amount of 1395.87
+INFO:root:We are going to buy: IOVA at 19 for a total amount of 1315.79
+INFO:root:We are going to buy: GPK at 17.9 for a total amount of 1396.65
+INFO:root:We are going to buy: IOVA at 19 for a total amount of 1315.79
+INFO:root:We are going to buy: GPK at 17.9 for a total amount of 1396.65
+INFO:root:We are going to buy: IOVA at 18.81 for a total amount of 1329.08
+INFO:root:We are going to buy: GPK at 17.91 for a total amount of 1395.87
+INFO:root:We are going to buy: IOVA at 18.79 for a total amount of 1330.49
+INFO:root:We are going to buy: GPK at 17.92 for a total amount of 1395.09
+INFO:root:We are going to buy: IOVA at 18.77 for a total amount of 1331.91
+INFO:root:We are going to buy: GPK at 17.92 for a total amount of 1395.09
+INFO:root:We are going to buy: IOVA at 19 for a total amount of 1315.79
+INFO:root:We are going to buy: GPK at 17.92 for a total amount of 1395.09
+INFO:root:We are going to buy: IOVA at 19 for a total amount of 1315.79
+INFO:root:We are going to buy: GPK at 17.92 for a total amount of 1395.09
+INFO:root:We are going to buy: IOVA at 19 for a total amount of 1315.79
+INFO:root:We are going to buy: GPK at 17.94 for a total amount of 1393.53
+INFO:root:We are going to buy: IOVA at 19 for a total amount of 1315.79
+INFO:root:We are going to buy: GPK at 17.94 for a total amount of 1393.53
+INFO:root:We are going to buy: IOVA at 19 for a total amount of 1315.79
+INFO:root:We are going to buy: GPK at 17.94 for a total amount of 1393.53
+INFO:root:We are going to buy: IOVA at 19 for a total amount of 1315.79
+INFO:root:We are going to buy: GPK at 17.91 for a total amount of 1395.87
+INFO:root:We are going to buy: IOVA at 19.31 for a total amount of 1294.67
+INFO:root:We are going to buy: GPK at 17.95 for a total amount of 1392.76
+INFO:root:We are going to buy: IOVA at 19.31 for a total amount of 1294.67
+INFO:root:We are going to buy: GPK at 17.96 for a total amount of 1391.98
+INFO:root:We are going to buy: IOVA at 18.91 for a total amount of 1322.05
+INFO:root:We are going to buy: GPK at 17.96 for a total amount of 1391.98
+INFO:root:We are going to buy: IOVA at 19.31 for a total amount of 1294.67
+INFO:root:We are going to buy: GPK at 17.99 for a total amount of 1389.66
+INFO:root:We are going to buy: IOVA at 18.92 for a total amount of 1321.35
+INFO:root:We are going to buy: GPK at 17.98 for a total amount of 1390.43
+INFO:root:We are going to buy: IOVA at 18.88 for a total amount of 1324.15
+INFO:root:We are going to buy: GPK at 18 for a total amount of 1388.89
+INFO:root:We are going to buy: IOVA at 18.92 for a total amount of 1321.35
+INFO:root:We are going to buy: GPK at 18.01 for a total amount of 1388.12
+INFO:root:We are going to buy: IOVA at 19.31 for a total amount of 1294.67
+INFO:root:We are going to buy: GPK at 18.04 for a total amount of 1385.81
+INFO:root:We are going to buy: IOVA at 19.31 for a total amount of 1294.67
+INFO:root:We are going to buy: GPK at 18.04 for a total amount of 1385.81
+INFO:root:We are going to buy: IOVA at 19.31 for a total amount of 1294.67
+INFO:root:We are going to buy: GPK at 18.04 for a total amount of 1385.81
+INFO:root:We are going to buy: IOVA at 18.91 for a total amount of 1322.05
+INFO:root:We are going to buy: GPK at 18.05 for a total amount of 1385.04
+INFO:root:We are going to buy: IOVA at 18.85 for a total amount of 1326.26
+INFO:root:We are going to buy: GPK at 18.07 for a total amount of 1383.51
+INFO:root:We are going to buy: IOVA at 18.85 for a total amount of 1326.26
+INFO:root:We are going to buy: GPK at 18.08 for a total amount of 1382.74
+INFO:root:We are going to buy: IOVA at 18.88 for a total amount of 1324.15
+INFO:root:We are going to buy: GPK at 18.07 for a total amount of 1383.51
+INFO:root:We are going to buy: IOVA at 18.84 for a total amount of 1326.96
+INFO:root:We are going to buy: GPK at 18.05 for a total amount of 1385.04
+INFO:root:We are going to buy: IOVA at 18.83 for a total amount of 1327.67
+INFO:root:We are going to buy: GPK at 18.06 for a total amount of 1384.27
+INFO:root:We are going to buy: IOVA at 18.9 for a total amount of 1322.75
+INFO:root:We are going to buy: GPK at 18.06 for a total amount of 1384.27
+INFO:root:We are going to buy: IOVA at 18.81 for a total amount of 1329.08
+INFO:root:We are going to buy: GPK at 18.03 for a total amount of 1386.58
+INFO:root:We are going to buy: IOVA at 19.31 for a total amount of 1294.67
+INFO:root:We are going to buy: GPK at 17.98 for a total amount of 1390.43
+INFO:root:We are going to buy: IOVA at 18.8 for a total amount of 1329.79
+INFO:root:We are going to buy: GPK at 17.98 for a total amount of 1390.43
+INFO:root:We are going to buy: IOVA at 19.31 for a total amount of 1294.67
+INFO:root:We are going to buy: GPK at 18 for a total amount of 1388.89
+INFO:root:We are going to buy: IOVA at 19.31 for a total amount of 1294.67
+INFO:root:We are going to buy: GPK at 17.99 for a total amount of 1389.66
+INFO:root:We are going to buy: IOVA at 19.31 for a total amount of 1294.67
+INFO:root:We are going to buy: GPK at 17.98 for a total amount of 1390.43
+INFO:root:We are going to buy: IOVA at 18.89 for a total amount of 1323.45
+INFO:root:We are going to buy: GPK at 17.98 for a total amount of 1390.43
+INFO:root:We are going to buy: IOVA at 18.92 for a total amount of 1321.35
+INFO:root:We are going to buy: GPK at 17.96 for a total amount of 1391.98
+INFO:root:We are going to buy: IOVA at 19.31 for a total amount of 1294.67
+INFO:root:We are going to buy: GPK at 17.95 for a total amount of 1392.76
+INFO:root:We are going to buy: IOVA at 18.82 for a total amount of 1328.37
+INFO:root:We are going to buy: GPK at 17.93 for a total amount of 1394.31
+INFO:root:We are going to buy: IOVA at 18.77 for a total amount of 1331.91
+INFO:root:We are going to buy: GPK at 17.94 for a total amount of 1393.53
+INFO:root:We are going to buy: IOVA at 19.31 for a total amount of 1294.67
+INFO:root:We are going to buy: GPK at 17.97 for a total amount of 1391.21
+INFO:root:['SPCE', 'IOVA', 'KSS', 'BEKE', 'BBVA', 'CS', 'GPK']
+INFO:root:['F', 'SPCE', 'RBLX', 'TAL', 'NVDA', 'MFC', 'IOVA', 'VFC', 'BEKE', 'YALA']
+INFO:root:['AMC', 'CLDR', 'BB', 'DVN', 'ABT', 'STAY', 'LX']
+INFO:root:On Tue Jun  1 12:25:02 2021 We are going to buy: CLDR at 15.94 for a total amount of 924
+INFO:root:['AMC', 'CLDR', 'BB', 'DVN', 'ABT', 'STAY', 'LX']
+INFO:root:On Tue Jun  1 12:40:29 2021 We are going to buy: CLDR at 15.95 for a total amount of 923
+INFO:root:On Tue Jun  1 12:40:30 2021 We are going to buy: BB at 11.11 for a total amount of 994
+INFO:root:On Tue Jun  1 12:40:31 2021 We are going to buy: ABT at 106.67 for a total amount of 77
+INFO:root:AT Tue Jun  1 12:40:31 2021 SOLD IOVA
+INFO:root:['WFC', 'RLX', 'PLTR', 'SKLZ', 'ZM']
+INFO:root:['CLOV', 'RLX', 'HIPO', 'CXP', 'CPNG', 'LU']
+INFO:root:['AFRM', 'SDC', 'CCJ']
+INFO:root:AT Mon Sep 13 13:08:47 2021 SOLD GPK
+INFO:root:AT Mon Sep 13 13:08:47 2021 SOLD BB
+INFO:root:AT Mon Sep 13 13:08:48 2021 SOLD ABT
+INFO:root:['AFRM', 'SDC', 'CCJ']
+INFO:root:['FCEL', 'SOFI', 'M', 'FUTU']
+INFO:root:['F', 'PLTR', 'RBLX', 'LCID', 'EVGO', 'LAZR', 'NVDA', 'PYPL', 'ZNGA', 'AMRS']
