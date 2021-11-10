@@ -82,10 +82,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<a href="https://app.alpaca.markets/paper/dashboard/overview">
+<a href="https://app.alpaca.markets/dashboard/overview">
     <img src="images/examples/portfolio.png" alt="Logo" width="600" height="400">
   </a>
-<p>As of right now a command line interface that manages the portfolio itself.</p>
+<p>As of right now a command line interface that manages the portfolio itself. Successfully communicates with the API to execute said trades which can be viewed using the alpaca markets dashboard. </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
