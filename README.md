@@ -205,7 +205,9 @@ Distributed under the MIT License. See `license.md` for more information.
 ## Contact
 
 John Parkhurst - jparkhurst120@gmail.com
+
 Reid Budd - reidbudd@gmail.com
+
 Project Link: [https://github.com/John4064/stockAPI](https://github.com/John4064/stockAPI)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
