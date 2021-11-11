@@ -159,7 +159,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 - [X] Basic Functionality
 - [] Documentation
-    - [] Readme
+    - [X] Readme
     - [] Refactoring file directory
 - [] User Interface
     - [] Interactibility with the application without programming
