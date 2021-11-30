@@ -13,11 +13,8 @@ class YahooScrape():
     def __init__(self):
         # Finds the top X Volatile stocks
         # Contraint 10,25,50,100
-        self.api = alpaca.REST(TESTAPI_KEY, TESTAPI_SECRET, APCA_API_BASE_URL, 'v2')
-        # self.rsiIndicator()
-        clock = self.api.get_clock()
-        #if(clock.is_open == False):
-            #print(clock.timestamp.hour)
+        #Code to determine success of initialization
+        self.code = 1
         return
     def findVolatile(self, amount):
         # top 10,25,50,100 most volatile stocks
@@ -89,7 +86,7 @@ class YahooScrape():
         else:
             return url
     def findFinancials(self, ticker, option):
-        #Useless method atm
+        #Dead Code Gets way to much statistics for our basic operation
         # PageS is page source from the desired ticker
         # We then convert it to beautiful soup so
         # we can search through for our desired tables(tbody tags)

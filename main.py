@@ -1,7 +1,4 @@
-
 import alpaca_trade_api as alpaca
-
-# Press the green button in the gutter to run the script.
 from algorithm import *
 from indicators import *
 import time
@@ -23,6 +20,9 @@ def run():
     except:
         print("For heading in tr_elements[0] line 34 find volatile")
     return []
+def test():
+    unittest.main()
+    return
 if __name__ == '__main__':
     tickers =['SKLZ', 'T', 'NKLA', 'FSR', 'TDC', 'HPE', 'HBAN', 'CS', 'CHPT', 'DOW', 'XM', 'NUAN', 'YSG', 'WBT']
     myApi = algo()
