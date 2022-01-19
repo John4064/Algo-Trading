@@ -167,6 +167,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
     - [] RSI Indicator
     - [] Bollinger Bands
     - [] On-Balance Volume Indicator
+- [] Database
+    - [] Convert logs to useable files
+    - [] Connect to a mysql/mongodb database to analyze
+    - [] Provide batch orders through a predetermined file(json)
 
 See the [open issues](https://github.com/John4064/stockAPI/issues) for a full list of proposed features (and known issues).
 
@@ -205,8 +209,6 @@ Distributed under the MIT License. See `license.md` for more information.
 ## Contact
 
 John Parkhurst - jparkhurst120@gmail.com
-
-Reid Budd - reidbudd@gmail.com
 
 Project Link: [https://github.com/John4064/stockAPI](https://github.com/John4064/stockAPI)
 
