@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fe79a031-6e6a-4126-a191-ec4050992602" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
       <recent name="D:\Workspace\Python Work\Stonks\StockAPI\Misc" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.scrapetest">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="StockAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,8 +101,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.scrapetest" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.scrapetest" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +120,7 @@
       <workItem from="1633384248847" duration="54000" />
       <workItem from="1633992856730" duration="841000" />
       <workItem from="1634586879840" duration="246000" />
-      <workItem from="1647404510029" duration="1235000" />
+      <workItem from="1647404510029" duration="1355000" />
     </task>
     <servers />
   </component>
@@ -139,7 +139,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/StockAPI$main.coverage" NAME="main Coverage Results" MODIFIED="1647404797555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/StockAPI$main.coverage" NAME="main Coverage Results" MODIFIED="1647405971185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/StockAPI$scrapetest.coverage" NAME="scrapetest Coverage Results" MODIFIED="1647405492074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
