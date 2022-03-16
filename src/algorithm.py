@@ -12,7 +12,6 @@ from config import *
 ColoramaInit(autoreset=True)
 
 # Logging info
-# ogging.basicConfig(filename='debug.log', level=logging.DEBUG)
 logging.basicConfig(filename='./Misc/trades.log', level=logging.INFO)
 
 
@@ -118,13 +117,13 @@ class algo:
             closeList = np.array(closeList, dtype=np.float64)
             volumeList = np.array(volumeList, dtype=np.float64)
             # Calculated SMA trading indicator
-            SMA20 = self.moving_average(closeList, 20)
-            SMA50 = self.moving_average(closeList, 50)
-            final20 = sum(SMA20) / len(SMA20)
-            final50 = sum(SMA50) / len(SMA50)
+            sma20 = self.moving_average(closeList, 20)
+            sma50 = self.moving_average(closeList, 50)
+            final20 = sum(sma20) / len(sma20)
+            final50 = sum(sma50) / len(sma50)
             # Now that we have the stocks for the trading indicator
             # MASSIVE BUG HERE EDIT THE TRY/EXCEPT WHEN GET TO IT
-            if (final20 > final50):
+            if final20 > final50:
                 self.approved.append(x)
                 try:
                     # Throws an error if there is not a position which means we buy it
