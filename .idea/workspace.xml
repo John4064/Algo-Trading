@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe79a031-6e6a-4126-a191-ec4050992602" name="Default Changelist" comment="" />
+    <list default="true" id="fe79a031-6e6a-4126-a191-ec4050992602" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/StockAPI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/indicators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scrape.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scrapetest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Misc/trades.log" beforeDir="false" afterPath="$PROJECT_DIR$/Misc/trades.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/jones.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/setting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/sponge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/indicators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrape.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapetest.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +42,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1y3G4exNV0v0xXI2FjoUCo4VuB8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,6 +54,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -39,6 +64,7 @@
       <recent name="J:\Workspace\Python Work\Stonks\StockAPI\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="D:\Workspace\Python Work\Stonks\StockAPI\Misc" />
     </key>
   </component>
@@ -50,13 +76,13 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="J:\Workspace\Python Work\blockchain\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.10" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,6 +111,7 @@
       <workItem from="1633384248847" duration="54000" />
       <workItem from="1633992856730" duration="841000" />
       <workItem from="1634586879840" duration="246000" />
+      <workItem from="1647404510029" duration="343000" />
     </task>
     <servers />
   </component>
@@ -101,9 +128,8 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/StockAPI$main.coverage" NAME="main Coverage Results" MODIFIED="1631725471954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/StockAPI$main.coverage" NAME="main Coverage Results" MODIFIED="1647404797555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

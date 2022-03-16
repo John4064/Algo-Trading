@@ -16,7 +16,6 @@ def run():
         #Returns the tickers
         print(ss.vol)
         return ss.sortValid(1)
-        #ss.sortValid(1)
     except:
         print("For heading in tr_elements[0] line 34 find volatile")
     return []
