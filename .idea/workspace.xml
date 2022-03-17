@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe79a031-6e6a-4126-a191-ec4050992602" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/gatherStat.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Misc/trades.log" beforeDir="false" afterPath="$PROJECT_DIR$/Misc/trades.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gatherStat.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/gatherStat.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,17 +60,17 @@
   </component>
   <component name="RunManager" selected="Python.gatherStat">
     <configuration name="gatherStat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="StockAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:\Workspace\Python Work\Stonks\StockAPI\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.10" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/gatherStat.py" />
       <option name="PARAMETERS" value="" />
@@ -153,6 +153,7 @@
       <workItem from="1633992856730" duration="841000" />
       <workItem from="1634586879840" duration="246000" />
       <workItem from="1647404510029" duration="1355000" />
+      <workItem from="1647484226552" duration="1171000" />
     </task>
     <servers />
   </component>
@@ -169,11 +170,10 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/StockAPI$main.coverage" NAME="main Coverage Results" MODIFIED="1647456335914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/StockAPI$gatherStat.coverage" NAME="gatherStat Coverage Results" MODIFIED="1647485165506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/StockAPI$main.coverage" NAME="main Coverage Results" MODIFIED="1647405971185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/StockAPI$scrapetest.coverage" NAME="scrapetest Coverage Results" MODIFIED="1647405492074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/StockAPI$gatherStat.coverage" NAME="gatherStat Coverage Results" MODIFIED="1647458961263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
