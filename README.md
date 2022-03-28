@@ -7,7 +7,7 @@
 *** Thanks again! Now go create something AMAZING! :D
 -->
 
-
+Algo-Trading
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -29,7 +29,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/John4064/StockAPI/">
+  <a href="https://github.com/John4064/Algo-Trading/">
     <img src="images/logo.jpg" alt="Logo" width="160" height="160">
   </a>
 
@@ -38,14 +38,14 @@
   <p align-items="center">
     An algoirthmic trading bot utilizing Alpaca Trade API to take the human factor out of trading
     <br />
-    <a href="https://github.com/John4064/StockAPI/"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/John4064/Algo-Trading/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/John4064/StockAPI/">View Demo</a>
+    <a href="https://github.com/John4064/Algo-Trading/">View Demo</a>
     ·
-    <a href="https://github.com/John4064/StockAPI/issues">Report Bug</a>
+    <a href="https://github.com/John4064/Algo-Trading/issues">Report Bug</a>
     ·
-    <a href="https://github.com/John4064/StockAPI/issues">Request Feature</a>
+    <a href="https://github.com/John4064/Algo-Trading/issues">Request Feature</a>
   </p>
 </div>
 
@@ -122,7 +122,7 @@ To get a local copy up and running follow these simple example steps.
 1. Get a free API Key at [https://alpaca.markets/](https://alpaca.markets/)
 2. Clone the repo
    ```sh
-   git clone https://github.com/John4064/StockAPI.git
+   git clone https://github.com/John4064/Algo-Trading.git
    ```
 3. Install Dependencies
    ```sh
@@ -172,7 +172,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
     - [] Connect to a mysql/mongodb database to analyze
     - [] Provide batch orders through a predetermined file(json)
 
-See the [open issues](https://github.com/John4064/stockAPI/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/John4064/Algo-Trading/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -210,7 +210,7 @@ Distributed under the MIT License. See `license.md` for more information.
 
 John Parkhurst - jparkhurst120@gmail.com
 
-Project Link: [https://github.com/John4064/stockAPI](https://github.com/John4064/stockAPI)
+Project Link: [https://github.com/John4064/Algo-Trading](https://github.com/John4064/Algo-Trading)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -229,16 +229,16 @@ Project Link: [https://github.com/John4064/stockAPI](https://github.com/John4064
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/John4064/StockAPI.svg?style=for-the-badge
-[contributors-url]: https://github.com/John4064/StockAPI/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/John4064/StockAPI.svg?style=for-the-badge
-[forks-url]: https://github.com/John4064/StockAPI/network/members
-[stars-shield]: https://img.shields.io/github/stars/John4064/StockAPI.svg?style=for-the-badge
-[stars-url]: https://github.com/John4064/StockAPI/stargazers
-[issues-shield]: https://img.shields.io/github/issues/John4064/StockAPI.svg?style=for-the-badge
-[issues-url]: https://github.com/John4064/StockAPI/issues
-[license-shield]: https://img.shields.io/github/license/John4064/StockAPI.svg?style=for-the-badge
-[license-url]: https://github.com/John4064/StockAPI/blob/main/license.md
+[contributors-shield]: https://img.shields.io/github/contributors/John4064/Algo-Trading.svg?style=for-the-badge
+[contributors-url]: https://github.com/John4064/Algo-Trading/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/John4064/Algo-Trading.svg?style=for-the-badge
+[forks-url]: https://github.com/John4064/Algo-Trading/network/members
+[stars-shield]: https://img.shields.io/github/stars/John4064/Algo-Trading.svg?style=for-the-badge
+[stars-url]: https://github.com/John4064/Algo-Trading/stargazers
+[issues-shield]: https://img.shields.io/github/issues/John4064/Algo-Trading.svg?style=for-the-badge
+[issues-url]: https://github.com/John4064/Algo-Trading/issues
+[license-shield]: https://img.shields.io/github/license/John4064/Algo-Trading.svg?style=for-the-badge
+[license-url]: https://github.com/John4064/Algo-Trading/blob/main/license.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/john-parkhurst-722a62146/
 [product-screenshot]: images/screenshot.png
