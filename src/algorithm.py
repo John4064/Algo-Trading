@@ -1,12 +1,12 @@
-from colorama import Fore, Style, init as ColoramaInit
-import alpaca_trade_api as alpaca
-from datetime import *
-import numpy as np
-import logging
-from scrape import *
-import time
 import threading
 import sys
+import time
+import logging
+from datetime import *
+from colorama import Fore, Style, init as ColoramaInit
+import alpaca_trade_api as alpaca
+import numpy as np
+from scrape import *
 from config import *
 
 ColoramaInit(autoreset=True)
@@ -40,14 +40,14 @@ class algo:
             # Checks if markets r open
             if self.clock.is_open:
                 print("MARKET IS OPEN")
-                if (self.timeToClose < (60 * 15)):
+                if self.timeToClose < (60 * 15):
                     # Close all positions when 15 minutes til market close.
                     print("Market closing soon.  importing tickers.")
                     self.importT()
                     print("Sleeping until market close (15 minutes).")
                     time.sleep(60 * 15)
                     # major bug here need to just clean up this elif
-                elif (self.timeToClose == (60 * 60)):
+                elif self.timeToClose == (60 * 60):
                     print("An Hour is Left Importing for end day trading!")
                     self.importT()
                     time.sleep(60)
@@ -67,7 +67,8 @@ class algo:
                             logging.info("AT {} SOLD {}".format(time.ctime(), position.symbol))
                             print("AT {} SOLD {}".format(time.ctime(), position.symbol))
 
-                            tSubmitOrder = threading.Thread(target=self.submitOrder(qty, position.symbol, orderSide))
+                            tSubmitOrder = threading.Thread(target=self.submitOrder(
+                                qty, position.symbol, orderSide))
                             tSubmitOrder.start()
                             tSubmitOrder.join()
 
@@ -132,13 +133,11 @@ class algo:
                     # Calculates the price and size of our position
                     price, targetPositionSize = self.calculateQ(x)
                     # logs and prints all the transaction (Put in function for later)
-                    print("On {} We are going to buy: {} at {} for a total amount of {}".format(time.ctime(), x, price,
-                                                                                                round(
-                                                                                                    targetPositionSize) - 1))
+                    print("On {} We are going to buy: {} at {} for a total amount of {}".format(
+                        time.ctime(), x, price,round(targetPositionSize) - 1))
                     logging.info(
-                        "On {} We are going to buy: {} at {} for a total amount of {}".format(time.ctime(), x, price,
-                                                                                              round(
-                                                                                                  targetPositionSize) - 1))
+                        "On {} We are going to buy: {} at {} for a total amount of {}".format(
+                            time.ctime(), x, price,round(targetPositionSize) - 1))
                     # order examples
                     # Send order
                     # NEEDS TO BE WHOLE NUMBER (Buggy with Fractional Shares
@@ -147,9 +146,11 @@ class algo:
                         print("Success Buy")
                     except:
                         print("ERROR WITH ORDER PROBABLY ON PRICE")
-        return
 
     def moving_average(self, x, w):
+        """
+        Calculates the moving average
+        """
         return np.convolve(x, np.ones(w), 'valid') / w
 
     def importT(self):
@@ -177,7 +178,7 @@ class algo:
         quoteL = self.api.get_last_quote(stock)._raw
         # Then calculates the target position based on our maxpos(.25) and current price
         price = quoteL['askprice']
-        if (price == 0):
+        if price == 0:
             price = quoteL['bidprice']
         targetPositionSize = round(cashBalance / (price / maxPos), 2)
         return price, targetPositionSize
