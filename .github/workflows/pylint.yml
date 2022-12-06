@@ -23,9 +23,8 @@ jobs:
         pip install numpy
         pip install pandas
         pip install Bs4
-        pip install lxml.html
         pip install requests
-        pip install
+        pip install lxml
     - name: Analysing the code with pylint
       run: |
         pylint $(git ls-files '*.py')
