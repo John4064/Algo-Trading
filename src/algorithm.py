@@ -13,7 +13,7 @@ from config import *
 ColoramaInit(autoreset=True)
 
 # Logging info
-logging.basicConfig(filename='./Misc/trades.log', level=logging.INFO)
+logging.basicConfig(filename='../Misc/trades.log', level=logging.INFO)
 
 
 class algo:
