@@ -3,6 +3,7 @@ import sys
 import time
 import logging
 from datetime import *
+import time
 from colorama import Fore, Style, init as ColoramaInit
 import alpaca_trade_api as alpaca
 import numpy as np
