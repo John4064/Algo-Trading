@@ -32,7 +32,7 @@
   </a>
 
 <h3 align="center">Algorithmic Trading Bot</h3>
-
+<h5 align="center">No Longer Being Maintained</h5>
   <p align-items="center">
     An algoirthmic trading bot utilizing Alpaca Trade API to take the human factor out of trading
     <br />
